@@ -1,0 +1,176 @@
+.highlight-section {
+  margin-bottom: 20px;
+}
+
+.highlight-card-container {
+  padding: 0 16px;
+}
+
+.highlight-card {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(135deg, rgba(217, 148, 0, 0.15) 0%, rgba(217, 148, 0, 0.08) 50%, rgba(255, 255, 255, 0) 100%);
+  padding: 16px;
+}
+
+.highlight-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  z-index: 2;
+}
+
+.highlight-date {
+  font-size: 12px;
+  color: rgba(60, 60, 67, 1);
+  line-height: 16.8px;
+}
+
+.highlight-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.highlight-main-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1A1C1E;
+  line-height: 33.6px;
+}
+
+.highlight-sub-title {
+  font-size: 12px;
+  color: #1A1C1E;
+  line-height: 16.8px;
+}
+
+.highlight-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.badge-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.badge-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.badge-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.badge-crown {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.badge-rank-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.highlight-stats {
+  margin-top: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: rgba(144, 144, 148, 1);
+  line-height: 16.8px;
+}
+
+.stat-value {
+  font-size: 14px;
+  color: #1A1C1E;
+  line-height: 19.6px;
+}
+
+.stat-value-number {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Reddit Sans', 'PingFang SC', sans-serif;
+  line-height: 23.4px;
+}
+
+.highlight-divider {
+  height: 0.5px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 10px 0;
+}
+
+.highlight-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+}
+
+.highlight-bottom-text {
+  flex: 1;
+}
+
+.bottom-desc {
+  font-size: 14px;
+  color: rgba(60, 60, 67, 0.8);
+  line-height: 20px;
+}
+
+.highlight-action-btn {
+  flex-shrink: 0;
+  padding: 6px 16px;
+  border-radius: 30px;
+  background: #fff;
+  border: 0.5px solid rgba(165, 165, 165, 0.3);
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  line-height: 20px;
+}

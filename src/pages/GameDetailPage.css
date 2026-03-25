@@ -1,0 +1,681 @@
+.game-detail-page {
+  width: 100%;
+  height: 100vh;
+  max-width: 428px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== 顶部英雄背景区 ===== */
+.detail-hero-banner {
+  position: relative;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.detail-hero-banner.win {
+  background: linear-gradient(180deg, #5b8dd9 0%, #a8c8f0 60%, #d6e6f8 100%);
+}
+
+.detail-hero-banner.lose {
+  background: linear-gradient(180deg, #7a8ea8 0%, #a8b8cc 60%, #d0d8e4 100%);
+}
+
+.banner-bg-decoration {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.banner-bg-circle-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  top: -60px;
+  right: -30px;
+}
+
+.banner-bg-circle-2 {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  top: 40px;
+  left: -40px;
+}
+
+.banner-bg-pattern {
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* 状态栏占位 */
+.detail-status-bar {
+  height: 47px;
+}
+
+/* 导航栏 */
+.detail-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 44px;
+  position: relative;
+  z-index: 10;
+}
+
+.detail-back-btn,
+.detail-share-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* 用户信息 */
+.detail-user-info {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px 10px;
+  position: relative;
+  z-index: 5;
+}
+
+.detail-user-avatar {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.avatar-placeholder {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.avatar-gender-badge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: #fff;
+  border: 1.5px solid #fff;
+}
+
+.avatar-gender-badge.male {
+  background: #4A9FFF;
+}
+
+.avatar-gender-badge.female {
+  background: #FF6B9D;
+}
+
+.detail-user-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  gap: 4px;
+}
+
+.detail-username {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 28px;
+}
+
+.detail-kda-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 20px;
+}
+
+.detail-rank-badge {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #FF6B00;
+  font-size: 12px;
+  color: #FF6B00;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.detail-result-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.detail-result-badge.win {
+  background: linear-gradient(180deg, #4A9FFF 0%, #6DB8FF 100%);
+}
+
+.detail-result-badge.lose {
+  background: linear-gradient(180deg, #8899AA 0%, #A0B0C0 100%);
+}
+
+.result-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 34px;
+}
+
+.result-type {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 17px;
+}
+
+/* ===== 可滚动内容 ===== */
+.detail-scroll-content {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 80px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ===== 高光视频区域 ===== */
+.detail-highlight-section {
+  padding: 20px 16px 0;
+}
+
+.highlight-section-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.highlight-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1A1C1E;
+  line-height: 22px;
+}
+
+.highlight-video-preview {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-preview-cover {
+  position: relative;
+}
+
+.video-preview-bg {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  position: relative;
+  background: linear-gradient(135deg, #1a3a5c 0%, #2a5a8c 40%, #1a4a6c 70%, #0a2a4c 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.preview-decoration {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.preview-deco-1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgba(255, 100, 50, 0.15);
+  top: -30px;
+  left: -20px;
+}
+
+.preview-deco-2 {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  background: linear-gradient(90deg, rgba(255, 200, 0, 0.1) 0%, transparent 100%);
+  top: 40%;
+  right: 0;
+  transform: skewY(-5deg);
+}
+
+.video-my-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.video-date-tag {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  z-index: 2;
+}
+
+.video-center-text {
+  position: absolute;
+  top: 40%;
+  left: 16px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.video-big-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #FF4444;
+  line-height: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1px rgba(255, 200, 0, 0.3);
+}
+
+.video-sub-info {
+  font-size: 13px;
+  font-weight: 500;
+  color: #FFD700;
+  line-height: 18px;
+  margin-top: 4px;
+}
+
+.video-preview-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.video-preview-bottom-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.video-preview-desc {
+  position: absolute;
+  bottom: 28px;
+  left: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  z-index: 2;
+}
+
+.video-preview-author {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  z-index: 2;
+}
+
+/* ===== 比赛信息行 ===== */
+.detail-match-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 12px;
+}
+
+.match-info-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #929296;
+  line-height: 18px;
+}
+
+.match-data-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.data-toggle-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #929296;
+  line-height: 18px;
+}
+
+.data-toggle-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid #D0D0D4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-toggle-circle.active {
+  background: #0099FF;
+  border-color: #0099FF;
+}
+
+/* ===== 比分区域 ===== */
+.detail-score-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  margin: 0;
+}
+
+.detail-score-bar.win {
+  background: linear-gradient(90deg, #E8F4FF 0%, #F0F8FF 100%);
+}
+
+.detail-score-bar.lose {
+  background: linear-gradient(90deg, #F0F0F4 0%, #F5F5F8 100%);
+}
+
+.score-left {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.score-result {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1A1C1E;
+  line-height: 22px;
+}
+
+.score-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1A1C1E;
+  line-height: 38px;
+}
+
+.score-economy {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  line-height: 20px;
+}
+
+/* ===== 玩家列表 ===== */
+.detail-player-list {
+  padding: 8px 0;
+}
+
+.player-row {
+  display: flex;
+  align-items: flex-start;
+  padding: 14px 16px;
+  gap: 12px;
+}
+
+/* 英雄头像 */
+.player-hero-avatar {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.hero-avatar-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.hero-avatar-emoji {
+  filter: brightness(0.8);
+}
+
+.mvp-badge {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: linear-gradient(135deg, #FF6B00 0%, #FF9500 100%);
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 14px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+.hero-level-badge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 4px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0 4px 0 8px;
+  font-size: 10px;
+  color: #fff;
+  line-height: 16px;
+}
+
+.hero-rating-badge {
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 17px;
+  white-space: nowrap;
+}
+
+/* 玩家信息列 */
+.player-info-col {
+  flex: 1;
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.player-name-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.player-rank-emoji {
+  font-size: 14px;
+}
+
+.player-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1A1C1E;
+  line-height: 20px;
+}
+
+.gender-icon {
+  font-size: 12px;
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+.gender-icon.male {
+  color: #4A9FFF;
+  background: rgba(74, 159, 255, 0.1);
+}
+
+.gender-icon.female {
+  color: #FF6B9D;
+  background: rgba(255, 107, 157, 0.1);
+}
+
+.player-rank-icon {
+  font-size: 12px;
+}
+
+.player-equip-row {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.equip-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* MVP 数据行 */
+.player-stats-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: #929296;
+  line-height: 15px;
+}
+
+.stat-bar-wrap {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #EFEFEF;
+  overflow: hidden;
+}
+
+.stat-bar {
+  height: 100%;
+  border-radius: 2px;
+}
+
+.stat-value {
+  font-size: 11px;
+  font-weight: 500;
+  color: #1A1C1E;
+  line-height: 15px;
+}
+
+/* KDA */
+.player-kda {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1A1C1E;
+  line-height: 22px;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+/* ===== 底部固定按钮 ===== */
+.detail-bottom-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 20px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 20px));
+  background: linear-gradient(to top, #fff 80%, transparent 100%);
+  z-index: 50;
+}
+
+.yuanbao-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 0;
+  border-radius: 24px;
+  background: linear-gradient(90deg, #3BA0FF 0%, #50B5FF 100%);
+  cursor: pointer;
+}
+
+.yuanbao-icon {
+  font-size: 18px;
+}
+
+.yuanbao-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 22px;
+}

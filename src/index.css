@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #000;
+  overflow: hidden;
+}
+
+/* 移动端适配 - 以428px为基准 */
+#root {
+  max-width: 428px;
+  margin: 0 auto;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

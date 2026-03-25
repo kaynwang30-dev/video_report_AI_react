@@ -1,0 +1,635 @@
+[FRAME] 我的tab (428.0x1580.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 clip
+  [GROUP] 视频 (428.0x240.0) strokeW:1.0 radius:[0.0,0.0,0.0,0.0]
+    [INSTANCE] 视频16:9 (428.0x240.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0 clip
+      [RECTANGLE] image (428.0x240.0) fills:[image] strokeW:0.3333333432674408
+      [GROUP] 播放 (52.0x42.0) strokeW:1.0 radius:[0.0,0.0,0.0,0.0]
+        [VECTOR] Rectangle 240651400 (52.0x42.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:2.4000000953674316 radius:18.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:9.600000381469727]
+        [VECTOR] Polygon 1 (17.198490142822266x19.234725952148438) fills:[solid:rgba(255,255,255,1.0)] strokeW:2.1600000858306885
+    [GROUP] 遮罩 (428.0x240.0) strokeW:0.3333333432674408
+      [VECTOR] 蒙版 (428.0x240.0) fills:[solid:rgba(190,190,190,1.0)]
+      [VECTOR] 矩形备份 12 (428.0x203.0) fills:[gradient:[rgba(56,84,225,0.0)@0.0,rgba(56,84,225,1.0)@1.0]]
+    [INSTANCE] 富媒体大按钮 Media big button【备份】 (50.0x50.0) strokeW:0.5
+      [RECTANGLE] Rectangle 3467809 (50.0x50.0) strokeW:0.5
+      [GROUP] Group 1856928 (44.0x44.0) strokeW:0.5
+        [GROUP] Group 116 (44.0x44.0) strokeW:0.5
+          [ELLIPSE] Ellipse 201 (43.0x43.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:2.0
+          [ELLIPSE] Ellipse 202 (44.0x44.0) stroke:[rgb(255,255,255)] strokeW:1.0 opacity:0.5
+          [INSTANCE] play_filled (24.0x24.0) strokeW:1.0 clip
+            [INSTANCE] .Cell/48grid (20.0x20.0) strokeW:1.0
+              [RECTANGLE] Rectangle 4 (20.0x20.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+              [RECTANGLE] Rectangle 1 (18.0x18.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 2 (19.0x17.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 3 (17.0x19.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [ELLIPSE] Ellipse 22 (20.0x20.0) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+            [VECTOR] Union (17.0x22.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:2.0 radius:1.5
+    [INSTANCE] 轮播指示器 (90.0x6.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.375 gap:6.0
+      [ELLIPSE] Ellipse 195 (8.0x8.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5
+      [ELLIPSE] Ellipse 195 (8.0x8.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5
+      [ELLIPSE] Ellipse 195 (8.0x8.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5
+      [ELLIPSE] Ellipse 196 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+      [ELLIPSE] Ellipse 197 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+      [ELLIPSE] Ellipse 198 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+      [ELLIPSE] Ellipse 199 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+      [ELLIPSE] Ellipse 200 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+    [FRAME] 切换 (42.0x18.0) layout:HORIZONTAL align:CENTER/CENTER fills:[solid:rgba(102,102,102,1.0)] strokeW:1.0 radius:24.0 pad:10.0,10.0,10.0,10.0 gap:10.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+      [INSTANCE] 轮播指示器 (30.0x6.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.375 gap:6.0
+        [ELLIPSE] Ellipse 195 (6.0x6.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.375
+        [ELLIPSE] Ellipse 195 (6.0x6.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.375
+        [ELLIPSE] Ellipse 195 (6.0x6.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.375
+        [ELLIPSE] Ellipse 196 (6.0x6.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.375
+        [ELLIPSE] Ellipse 197 (6.0x6.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.375
+        [ELLIPSE] Ellipse 198 (6.0x6.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.375
+        [ELLIPSE] Ellipse 199 (6.0x6.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.375
+        [ELLIPSE] Ellipse 200 (6.0x6.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.375
+  [VECTOR] BG (428.0x2077.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:4.321839332580566
+  [FRAME] 页面 (428.0x1238.0) layout:VERTICAL strokeW:1.0 pad:16.0,0,0,0 gap:20.0
+    [FRAME] Frame 2119903657 (428.0x1222.0) layout:VERTICAL strokeW:1.0 gap:20.0
+      [FRAME] Frame 2119903858 (428.0x198.0) layout:VERTICAL strokeW:1.0 gap:20.0
+        [FRAME] 头部 (428.0x82.0) layout:VERTICAL strokeW:1.0 gap:12.0
+          [FRAME] 资料 (428.0x82.0) layout:HORIZONTAL align:SPACE_BETWEEN/CENTER strokeW:1.0 pad:0,16.0,0,16.0 gap:10.0
+            [FRAME] Frame 2119901804 (259.0x82.0) layout:HORIZONTAL strokeW:1.0 gap:12.0
+              [INSTANCE] member (60.0x60.0) fills:[image] strokeW:0.20000000298023224 radius:45.0
+                [ELLIPSE] avatar/flower (60.0x60.0) fills:[image] strokeW:0.10000000149011612
+                [RECTANGLE] broder (60.0x60.0) stroke:[rgb(255,255,255)] strokeW:0.5 radius:50.0
+              [FRAME] Frame 427323204 (187.0x82.0) layout:VERTICAL align:CENTER/ strokeW:1.0 gap:8.0
+                [FRAME] Frame 2119903830 (187.0x57.0) layout:VERTICAL strokeW:1.0 gap:4.0
+                  [FRAME] 名字 (144.0x28.0) layout:HORIZONTAL strokeW:1.0 gap:8.0
+                    [FRAME] Frame 2119901949 (120.0x28.0) layout:HORIZONTAL strokeW:1.0 gap:6.0
+                    [INSTANCE] male (15.999999046325684x15.999999046325684) strokeW:0.6666666269302368
+                    [GROUP] 性别 (16.0x16.0) strokeW:0.8888888955116272 radius:[0.0,0.0,0.0,0.0]
+                  [FRAME] Tag (187.0x25.0) layout:HORIZONTAL strokeW:0.5 gap:6.0
+                    [FRAME] Label single (56.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 radius:6.0 pad:4.0,8.0,4.0,8.0 gap:4.0 clip
+                    [FRAME] Label single (94.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 radius:6.0 pad:4.0,8.0,4.0,8.0 gap:2.0 clip
+                    [INSTANCE] Label single (66.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 radius:6.0 pad:4.0,8.0,4.0,8.0 gap:2.0 clip
+                    [FRAME] Label single (25.0x25.0) layout:HORIZONTAL align:CENTER/CENTER fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 radius:6.0 pad:4.0,4.0,4.0,4.0 gap:2.0 clip
+                  [INSTANCE] Tag (213.0x25.0) layout:HORIZONTAL strokeW:0.5 gap:6.0
+                    [INSTANCE] Label single (57.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 radius:6.0 pad:4.0,8.0,4.0,8.0 gap:2.0 clip
+                    [INSTANCE] Label single (78.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 radius:6.0 pad:4.0,8.0,4.0,8.0 gap:2.0 clip
+                    [INSTANCE] Label single (66.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5 radius:6.0 pad:4.0,8.0,4.0,8.0 gap:2.0 clip
+                [FRAME] Frame 2119902036 (44.0x20.0) layout:HORIZONTAL strokeW:1.0 gap:4.0
+                  [GROUP] Group 1321317398 (20.0x20.0) strokeW:0.9436956644058228
+                    [RECTANGLE] 游戏鹅 1 (20.0x20.0) fills:[solid:rgba(217,217,217,1.0)] strokeW:0.5620231628417969
+                    [RECTANGLE] 游戏鹅 2 (28.0x28.0) fills:[image] strokeW:0.5879626870155334
+                  [GROUP] Group 427321328 (20.0x20.0) strokeW:0.09569378197193146
+                    [RECTANGLE] 02 2 (20.0x20.0) fills:[image] strokeW:0.09569378197193146
+                    [RECTANGLE] 02 3 (20.0x20.0) fills:[image] strokeW:0.09569378197193146
+                [FRAME] 切换账号 (148.0x17.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.5 gap:2.0
+                  [TEXT] 王者荣耀：☎️ 找人CPDD (134.0x17.0) fills:[solid:rgba(60,60,67,1.0)] strokeW:0.43844491243362427 text:"王者荣耀：☎️ 找人CPDD" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                  [INSTANCE] chevron_right (12.0x12.0) strokeW:0.5 clip
+                    [INSTANCE] .Cell/48grid (10.0x10.0) strokeW:0.5
+                    [VECTOR] Union (5.142893314361572x9.850000381469727) fills:[solid:rgba(146,146,150,1.0)] strokeW:0.8500000238418579
+            [INSTANCE] 圆按钮小 (74.0x32.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] stroke:[rgb(165,165,165)] strokeW:0.5 radius:100.0 pad:11.5,8.0,11.5,8.0 gap:5.0
+              [FRAME] content (58.0x20.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0 clip
+                [TEXT] text (42.0x20.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.0 text:"编辑资料" font:PingFang SC/14.0px/w500/lh20.0/ls0.0
+            [FRAME] like (37.0x39.0) layout:VERTICAL align:SPACE_BETWEEN/CENTER strokeW:1.0 pad:0,4.0,0,4.0 gap:4.0
+              [INSTANCE] like (20.0x20.0) strokeW:0.8333333730697632 clip
+                [INSTANCE] .Cell/48grid (16.666667938232422x16.666667938232422) strokeW:0.8333333730697632
+                  [RECTANGLE] Rectangle 4 (16.666667938232422x16.666667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+                  [RECTANGLE] Rectangle 1 (15.000000953674316x15.000000953674316) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                  [RECTANGLE] Rectangle 2 (15.833334922790527x14.166667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                  [RECTANGLE] Rectangle 3 (14.166667938232422x15.833334922790527) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                  [ELLIPSE] Ellipse 22 (16.666667938232422x16.666667938232422) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+                [VECTOR] Union (16.549434661865234x17.562501907348633) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.4166667461395264
+              [TEXT] number (29.0x15.0) fills:[solid:rgba(0,0,0,1.0)] text:"4443" font:PingFang SC/12.0px/w600/lh15.0/ls0.0
+            [FRAME] Frame 2119901805 (80.0x47.0) layout:VERTICAL align:CENTER/MAX strokeW:1.0 pad:0,0,4.0,0
+              [FRAME] Frame 2119902113 (48.0x43.0) layout:VERTICAL strokeW:1.0
+                [TEXT] 32 (22.0x26.0) fills:[solid:rgba(26,28,30,1.0)] text:"32" font:PingFang SC/18.0px/w600/lh26.0/ls0.0
+                [TEXT] 获得互动 (48.0x17.0) fills:[solid:rgba(144,144,148,1.0)] strokeW:1.0 text:"获得互动" font:PingFang SC/12.0px/w400/lh17.0/ls0.0
+        [FRAME] Frame 2119903650 (428.0x96.0) layout:VERTICAL strokeW:1.0
+          [INSTANCE] 03标题 (428.0x36.0) layout:HORIZONTAL align:CENTER/ fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5 pad:0,16.0,12.0,16.0
+            [TEXT] 人气竞速与跑酷游戏 (153.0x24.0) fills:[solid:rgba(0,0,0,1.0)] text:"玩过的游戏(23)" font:PingFang SC/17.0px/w500/lh20.0/ls0.0
+            [FRAME] right contents (243.0x24.0) layout:HORIZONTAL align:MAX/CENTER strokeW:0.5 gap:8.0
+              [TEXT] 辅助信息 (227.0x24.0) text:"辅助信息" font:PingFang SC/14.0px/w400/lh24.0/ls0.0
+              [FRAME] chevron (8.0x16.0) strokeW:0.5 clip
+                [INSTANCE] chevron_right (16.0x16.0) strokeW:0.6666666865348816 clip
+                  [INSTANCE] .Cell/48grid (13.333333969116211x13.333333969116211) strokeW:0.6666666865348816
+                    [RECTANGLE] Rectangle 4 (13.333333969116211x13.333333969116211) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428
+                    [RECTANGLE] Rectangle 1 (12.0x12.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428 radius:1.3333334922790527
+                    [RECTANGLE] Rectangle 2 (12.666666984558105x11.333333969116211) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428 radius:1.3333334922790527
+                    [RECTANGLE] Rectangle 3 (11.333333969116211x12.666666984558105) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428 radius:1.3333334922790527
+                    [ELLIPSE] Ellipse 22 (13.333333969116211x13.333333969116211) stroke:[rgb(0,153,255)] strokeW:0.06666667014360428
+                  [VECTOR] Union (6.85719108581543x13.133334159851074) fills:[solid:rgba(146,146,150,1.0)] strokeW:1.133333444595337
+          [FRAME] Frame 2119903647 (428.0x60.0) layout:HORIZONTAL align:SPACE_BETWEEN/ strokeW:1.0 pad:0,16.0,0,16.0 gap:20.0
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:0.16393442451953888 radius:12.0 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.1770833283662796
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 02元梦之星 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [INSTANCE] 游戏 App icon (60.0x60.0) strokeW:0.16393442451953888 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.14166666567325592 radius:100.0
+              [INSTANCE] 小游戏 (16.0x16.0) strokeW:0.6296296715736389
+                [ELLIPSE] Ellipse 5677 (14.222222328186035x14.222222328186035) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.8888888955116272
+                [VECTOR] Vector 3479 (6.772486209869385x6.742639064788818) stroke:[rgb(255,255,255)] strokeW:1.3544975519180298 radius:[0.0,0.0,0.0,0.0]
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 06重返帝国 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [INSTANCE] 游戏 App icon (60.0x60.0) strokeW:0.16393442451953888 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.14166666567325592
+              [INSTANCE] 小游戏 (16.0x16.0) strokeW:0.6296296715736389
+                [ELLIPSE] Ellipse 5677 (14.222222328186035x14.222222328186035) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.8888888955116272
+                [VECTOR] Vector 3479 (6.772486209869385x6.742639064788818) stroke:[rgb(255,255,255)] strokeW:1.3544975519180298 radius:[0.0,0.0,0.0,0.0]
+          [FRAME] Frame 2119903649 (428.0x60.0) layout:HORIZONTAL align:SPACE_BETWEEN/ strokeW:1.0 pad:0,16.0,0,16.0 gap:20.0
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:0.16393442451953888 radius:12.0 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.1770833283662796
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 02元梦之星 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 03和平精英 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 06重返帝国 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 11天涯明月刀 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+          [FRAME] Frame 2119903648 (428.0x45.65333557128906) layout:HORIZONTAL align:SPACE_BETWEEN/ strokeW:1.1413333415985107 pad:0,18.261333465576172,0,18.261333465576172 gap:22.82666778564453
+            [INSTANCE] 游戏 App icon (45.65333557128906x45.65333557128906) strokeW:0.12473588436841965 radius:9.130666732788086 clip
+              [RECTANGLE] 01王者荣耀 (51.74044418334961x51.74044418334961) fills:[image] strokeW:0.13474074006080627
+            [INSTANCE] 游戏 App icon (45.65333557128906x45.65333557128906) strokeW:0.12473589181900024 clip
+              [RECTANGLE] 01王者荣耀 (45.65333557128906x45.65333557128906) fills:[image] strokeW:0.14166666567325592
+              [INSTANCE] 小游戏 (12.174222946166992x12.174222946166992) strokeW:0.4790782630443573
+                [ELLIPSE] Ellipse 5677 (10.821531295776367x10.821531295776367) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.676345705986023
+                [VECTOR] Vector 3479 (5.153110027313232x5.130399227142334) stroke:[rgb(255,255,255)] strokeW:1.0306222438812256 radius:[0.0,0.0,0.0,0.0]
+            [INSTANCE] 游戏 App icon (45.65333557128906x45.65333557128906) strokeW:0.760888934135437 radius:9.130666732788086 clip
+              [RECTANGLE] 02元梦之星 (51.74044418334961x51.74044418334961) fills:[image] strokeW:0.13474075496196747
+            [INSTANCE] 游戏 App icon (45.65333557128906x45.65333557128906) strokeW:0.760888934135437 radius:9.130666732788086 clip
+              [RECTANGLE] 04金铲铲之战 (51.74044418334961x51.74044418334961) fills:[image] strokeW:0.13474075496196747
+            [INSTANCE] 游戏 App icon (45.65333557128906x45.65333557128906) strokeW:0.12473589181900024 clip
+              [RECTANGLE] 01王者荣耀 (45.65333557128906x45.65333557128906) fills:[image] strokeW:0.14166666567325592 radius:100.0
+              [INSTANCE] 小游戏 (12.174222946166992x12.174222946166992) strokeW:0.4790782630443573
+                [ELLIPSE] Ellipse 5677 (10.821531295776367x10.821531295776367) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.676345705986023
+                [VECTOR] Vector 3479 (5.153110027313232x5.130399227142334) stroke:[rgb(255,255,255)] strokeW:1.0306222438812256 radius:[0.0,0.0,0.0,0.0]
+            [INSTANCE] 游戏 App icon (45.65333557128906x45.65333557128906) strokeW:0.12473588436841965 radius:9.130666732788086 clip
+              [RECTANGLE] 01王者荣耀 (51.74044418334961x51.74044418334961) fills:[image] strokeW:0.13474074006080627
+            [INSTANCE] 游戏 App icon (59.349334716796875x59.349334716796875) strokeW:0.16215665638446808 clip
+              [RECTANGLE] 01王者荣耀 (59.349334716796875x59.349334716796875) fills:[image] strokeW:0.14166666567325592 radius:100.0
+              [INSTANCE] 小游戏 (18.261333465576172x18.261333465576172) strokeW:0.6296296715736389
+                [ELLIPSE] Ellipse 5677 (16.232295989990234x16.232295989990234) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.8888888955116272
+                [VECTOR] Vector 3479 (7.729664325714111x7.695598602294922) stroke:[rgb(255,255,255)] strokeW:1.3544975519180298 radius:[0.0,0.0,0.0,0.0]
+      [FRAME] Frame 2119903847 (428.0x213.0) layout:VERTICAL strokeW:1.0 gap:16.0
+        [FRAME] Frame 2119903880 (428.0x85.0) layout:VERTICAL strokeW:1.0 gap:8.0
+          [FRAME] 头部 (428.0x60.0) layout:VERTICAL strokeW:1.0 gap:12.0
+            [FRAME] 资料 (428.0x60.0) layout:HORIZONTAL align:SPACE_BETWEEN/CENTER strokeW:1.0 pad:0,16.0,0,16.0 gap:10.0
+              [FRAME] Frame 2119901804 (279.0x60.0) layout:HORIZONTAL strokeW:1.0 gap:12.0
+                [INSTANCE] member (60.0x60.0) fills:[image] strokeW:0.20000000298023224 radius:45.0
+                  [ELLIPSE] avatar/flower (60.0x60.0) fills:[image] strokeW:0.10000000149011612
+                  [RECTANGLE] broder (60.0x60.0) stroke:[rgb(255,255,255)] strokeW:0.5 radius:50.0
+                [FRAME] Frame 427323204 (207.0x57.0) layout:VERTICAL align:CENTER/ strokeW:1.0 gap:8.0
+                  [FRAME] Frame 2119903830 (207.0x57.0) layout:VERTICAL strokeW:1.0 gap:4.0
+                    [FRAME] 名字 (144.0x28.0) layout:HORIZONTAL strokeW:1.0 gap:8.0
+                    [FRAME] Tag (207.0x25.0) layout:HORIZONTAL strokeW:0.5 gap:6.0
+                    [INSTANCE] Tag (213.0x25.0) layout:HORIZONTAL strokeW:0.5 gap:6.0
+                  [FRAME] Frame 2119902036 (44.0x20.0) layout:HORIZONTAL strokeW:1.0 gap:4.0
+                    [GROUP] Group 1321317398 (20.0x20.0) strokeW:0.9436956644058228
+                    [GROUP] Group 427321328 (20.0x20.0) strokeW:0.09569378197193146
+                  [FRAME] 切换账号 (148.0x17.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.5 gap:2.0
+                    [TEXT] 王者荣耀：☎️ 找人CPDD (134.0x17.0) fills:[solid:rgba(60,60,67,1.0)] strokeW:0.43844491243362427 text:"王者荣耀：☎️ 找人CPDD" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                    [INSTANCE] chevron_right (12.0x12.0) strokeW:0.5 clip
+              [INSTANCE] 圆按钮小 (74.0x32.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] stroke:[rgb(165,165,165)] strokeW:0.5 radius:100.0 pad:11.5,8.0,11.5,8.0 gap:5.0
+                [FRAME] content (58.0x20.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0 clip
+                  [TEXT] text (42.0x20.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.0 text:"编辑资料" font:PingFang SC/14.0px/w500/lh20.0/ls0.0
+              [FRAME] like (37.0x39.0) layout:VERTICAL align:SPACE_BETWEEN/CENTER strokeW:1.0 pad:0,4.0,0,4.0 gap:4.0
+                [INSTANCE] like (20.0x20.0) strokeW:0.8333333730697632 clip
+                  [INSTANCE] .Cell/48grid (16.666667938232422x16.666667938232422) strokeW:0.8333333730697632
+                    [RECTANGLE] Rectangle 4 (16.666667938232422x16.666667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+                    [RECTANGLE] Rectangle 1 (15.000000953674316x15.000000953674316) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                    [RECTANGLE] Rectangle 2 (15.833334922790527x14.166667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                    [RECTANGLE] Rectangle 3 (14.166667938232422x15.833334922790527) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                    [ELLIPSE] Ellipse 22 (16.666667938232422x16.666667938232422) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+                  [VECTOR] Union (16.549434661865234x17.562501907348633) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.4166667461395264
+                [TEXT] number (29.0x15.0) fills:[solid:rgba(0,0,0,1.0)] text:"4443" font:PingFang SC/12.0px/w600/lh15.0/ls0.0
+              [FRAME] Frame 2119901805 (80.0x47.0) layout:VERTICAL align:CENTER/MAX strokeW:1.0 pad:0,0,4.0,0
+                [FRAME] Frame 2119902113 (48.0x43.0) layout:VERTICAL strokeW:1.0
+                  [TEXT] 32 (22.0x26.0) fills:[solid:rgba(26,28,30,1.0)] text:"32" font:PingFang SC/18.0px/w600/lh26.0/ls0.0
+                  [TEXT] 获得互动 (48.0x17.0) fills:[solid:rgba(144,144,148,1.0)] strokeW:1.0 text:"获得互动" font:PingFang SC/12.0px/w400/lh17.0/ls0.0
+          [FRAME] 切换账号 (236.0x17.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.5 pad:0,0,0,88.0 gap:2.0
+            [TEXT] 王者荣耀：☎️ 找人CPDD (134.0x17.0) fills:[solid:rgba(60,60,67,1.0)] strokeW:0.43844491243362427 text:"王者荣耀：☎️ 找人CPDD" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+            [INSTANCE] chevron_right (12.0x12.0) strokeW:0.5 clip
+              [INSTANCE] .Cell/48grid (10.0x10.0) strokeW:0.5
+                [RECTANGLE] Rectangle 4 (10.0x10.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+                [RECTANGLE] Rectangle 1 (9.0x9.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                [RECTANGLE] Rectangle 2 (9.5x8.5) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                [RECTANGLE] Rectangle 3 (8.5x9.5) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+                [ELLIPSE] Ellipse 22 (10.0x10.0) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+              [VECTOR] Union (5.142893314361572x9.850000381469727) fills:[solid:rgba(146,146,150,1.0)] strokeW:0.8500000238418579
+        [INSTANCE] Divider (428.0x0.0) stroke:[rgb(0,0,0)] strokeW:0.5
+        [FRAME] Frame 2119903650 (428.0x96.0) layout:VERTICAL strokeW:1.0
+          [INSTANCE] 03标题 (428.0x36.0) layout:HORIZONTAL align:CENTER/ fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5 pad:0,16.0,12.0,16.0
+            [TEXT] 人气竞速与跑酷游戏 (153.0x24.0) fills:[solid:rgba(0,0,0,1.0)] text:"玩过的游戏(23)" font:PingFang SC/17.0px/w500/lh20.0/ls0.0
+            [FRAME] right contents (243.0x24.0) layout:HORIZONTAL align:MAX/CENTER strokeW:0.5 gap:8.0
+              [TEXT] 辅助信息 (227.0x24.0) text:"辅助信息" font:PingFang SC/14.0px/w400/lh24.0/ls0.0
+              [FRAME] chevron (8.0x16.0) strokeW:0.5 clip
+                [INSTANCE] chevron_right (16.0x16.0) strokeW:0.6666666865348816 clip
+                  [INSTANCE] .Cell/48grid (13.333333969116211x13.333333969116211) strokeW:0.6666666865348816
+                    [RECTANGLE] Rectangle 4 (13.333333969116211x13.333333969116211) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428
+                    [RECTANGLE] Rectangle 1 (12.0x12.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428 radius:1.3333334922790527
+                    [RECTANGLE] Rectangle 2 (12.666666984558105x11.333333969116211) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428 radius:1.3333334922790527
+                    [RECTANGLE] Rectangle 3 (11.333333969116211x12.666666984558105) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.06666667014360428 radius:1.3333334922790527
+                    [ELLIPSE] Ellipse 22 (13.333333969116211x13.333333969116211) stroke:[rgb(0,153,255)] strokeW:0.06666667014360428
+                  [VECTOR] Union (6.85719108581543x13.133334159851074) fills:[solid:rgba(146,146,150,1.0)] strokeW:1.133333444595337
+          [FRAME] Frame 2119903647 (428.0x60.0) layout:HORIZONTAL align:SPACE_BETWEEN/ strokeW:1.0 pad:0,16.0,0,16.0 gap:20.0
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:0.16393442451953888 radius:12.0 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.1770833283662796
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 02元梦之星 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [INSTANCE] 游戏 App icon (60.0x60.0) strokeW:0.16393442451953888 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.14166666567325592 radius:100.0
+              [INSTANCE] 小游戏 (16.0x16.0) strokeW:0.6296296715736389
+                [ELLIPSE] Ellipse 5677 (14.222222328186035x14.222222328186035) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.8888888955116272
+                [VECTOR] Vector 3479 (6.772486209869385x6.742639064788818) stroke:[rgb(255,255,255)] strokeW:1.3544975519180298 radius:[0.0,0.0,0.0,0.0]
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 06重返帝国 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [INSTANCE] 游戏 App icon (60.0x60.0) strokeW:0.16393442451953888 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.14166666567325592
+              [INSTANCE] 小游戏 (16.0x16.0) strokeW:0.6296296715736389
+                [ELLIPSE] Ellipse 5677 (14.222222328186035x14.222222328186035) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.8888888955116272
+                [VECTOR] Vector 3479 (6.772486209869385x6.742639064788818) stroke:[rgb(255,255,255)] strokeW:1.3544975519180298 radius:[0.0,0.0,0.0,0.0]
+          [FRAME] Frame 2119903650 (428.0x60.0) layout:HORIZONTAL align:SPACE_BETWEEN/ strokeW:1.0 gap:20.0
+            [FRAME] Frame 2119903875 (21.33333396911621x13.0) strokeW:1.0 clip
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:0.16393442451953888 radius:12.0 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.1770833283662796
+            [FRAME] Frame 2119903873 (21.333332061767578x13.0) strokeW:1.0 clip
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 02元梦之星 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [FRAME] Frame 2119903870 (21.333332061767578x13.0) strokeW:1.0 clip
+            [INSTANCE] 游戏 App icon (60.0x60.0) strokeW:0.16393442451953888 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.14166666567325592 radius:100.0
+              [INSTANCE] 小游戏 (16.0x16.0) strokeW:0.6296296715736389
+                [ELLIPSE] Ellipse 5677 (14.222222328186035x14.222222328186035) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.8888888955116272
+                [VECTOR] Vector 3479 (6.772486209869385x6.742639064788818) stroke:[rgb(255,255,255)] strokeW:1.3544975519180298 radius:[0.0,0.0,0.0,0.0]
+            [FRAME] Frame 2119903871 (21.333332061767578x13.0) strokeW:1.0 clip
+            [INSTANCE] QQGame_gamelogo (60.0x60.0) strokeW:1.0 radius:12.0 clip
+              [RECTANGLE] 06重返帝国 (68.0x68.0) fills:[image] strokeW:0.1770833432674408
+            [FRAME] Frame 2119903872 (21.333332061767578x13.0) strokeW:1.0 clip
+            [INSTANCE] 游戏 App icon (60.0x60.0) strokeW:0.16393442451953888 clip
+              [RECTANGLE] 01王者荣耀 (60.0x60.0) fills:[image] strokeW:0.14166666567325592
+              [INSTANCE] 小游戏 (16.0x16.0) strokeW:0.6296296715736389
+                [ELLIPSE] Ellipse 5677 (14.222222328186035x14.222222328186035) fills:[solid:rgba(0,178,64,1.0)] stroke:[rgb(239,244,255)] strokeW:0.8888888955116272
+                [VECTOR] Vector 3479 (6.772486209869385x6.742639064788818) stroke:[rgb(255,255,255)] strokeW:1.3544975519180298 radius:[0.0,0.0,0.0,0.0]
+            [FRAME] Frame 2119903874 (21.333332061767578x13.0) strokeW:1.0 clip
+      [FRAME] Frame 2119903835 (428.0x989.0) layout:VERTICAL strokeW:1.0 gap:16.0
+        [FRAME] Frame 2119903829 (428.0x54.0) layout:VERTICAL strokeW:1.0
+          [RECTANGLE] Rectangle 240651409 (428.0x6.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.0
+          [INSTANCE] 页面中部页签 (428.0x48.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] stroke:[rgb(0,0,0)] strokeW:0.5 clip
+            [RECTANGLE] space (60.0x48.0) fills:[solid:rgba(255,167,167,1.0)] strokeW:0.5
+            [INSTANCE] Tab-item (32.0x48.0) layout:VERTICAL align:SPACE_BETWEEN/CENTER strokeW:0.5 gap:5.0
+              [TEXT] tab1 (32.0x22.0) fills:[solid:rgba(0,0,0,1.0)] text:"战报" font:PingFang SC/16.0px/w500/lh22.399999618530273/ls0.0
+              [RECTANGLE] line (32.0x3.0) fills:[solid:rgba(0,153,255,1.0)] radius:2.0
+            [RECTANGLE] space (60.0x48.0) fills:[solid:rgba(255,167,167,1.0)] strokeW:0.5
+            [INSTANCE] Tab-item (32.0x48.0) layout:VERTICAL align:SPACE_BETWEEN/ strokeW:0.5 gap:5.0
+              [TEXT] tab1 (32.0x22.0) fills:[solid:rgba(0,0,0,1.0)] text:"战绩" font:PingFang SC/16.0px/w400/lh22.399999618530273/ls0.0
+              [RECTANGLE] line (32.0x3.0) fills:[solid:rgba(0,153,255,1.0)] radius:2.0 opacity:0.0
+            [RECTANGLE] space (60.0x48.0) fills:[solid:rgba(255,167,167,1.0)] strokeW:0.5
+            [INSTANCE] Tab-item (32.0x48.0) layout:VERTICAL align:CENTER/CENTER strokeW:0.5 gap:5.0
+              [TEXT] tab1 (32.0x22.0) fills:[solid:rgba(0,0,0,1.0)] text:"帖子" font:PingFang SC/16.0px/w400/lh22.399999618530273/ls0.0
+              [RECTANGLE] line (32.0x3.0) fills:[solid:rgba(0,153,255,1.0)] radius:2.0 opacity:0.0
+            [RECTANGLE] space (60.0x48.0) fills:[solid:rgba(255,167,167,1.0)] strokeW:0.5
+            [INSTANCE] Tab-item (32.0x48.0) layout:VERTICAL align:CENTER/CENTER strokeW:0.5 gap:5.0
+              [TEXT] tab1 (32.0x22.0) fills:[solid:rgba(0,0,0,1.0)] text:"问答" font:PingFang SC/16.0px/w400/lh22.399999618530273/ls0.0
+              [RECTANGLE] line (32.0x3.0) fills:[solid:rgba(0,153,255,1.0)] radius:2.0 opacity:0.0
+            [RECTANGLE] space (60.0x48.0) fills:[solid:rgba(255,167,167,1.0)] strokeW:0.5
+        [FRAME] right contents (396.0x24.0) layout:HORIZONTAL strokeW:0.5 gap:8.0
+          [FRAME] Frame 2119903844 (88.0x24.0) layout:HORIZONTAL strokeW:1.0 gap:8.0
+            [INSTANCE] QQGame_gamelogo (24.0x24.0) strokeW:0.06557377427816391 radius:4.0 clip
+              [RECTANGLE] 01王者荣耀 (24.0x24.0) fills:[image] strokeW:0.07083333283662796
+            [TEXT] 辅助信息 (56.0x20.0) fills:[solid:rgba(0,0,0,1.0)] text:"王者荣耀" font:PingFang SC/14.0px/w400/lh19.600000381469727/ls0.0
+          [INSTANCE] transfer (16.0x16.0) strokeW:0.6666666865348816 clip
+            [INSTANCE] .Cell/48grid (13.333333969116211x13.333333969116211) strokeW:0.6666666865348816
+              [RECTANGLE] Rectangle 4 (13.333333969116211x13.333333969116211) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+              [RECTANGLE] Rectangle 1 (12.000000953674316x12.000000953674316) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 2 (12.666666984558105x11.333333969116211) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 3 (11.333333969116211x12.666666984558105) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [ELLIPSE] Ellipse 22 (13.333333969116211x13.333333969116211) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+            [VECTOR] Union (12.4666166305542x12.466146469116211) fills:[solid:rgba(26,26,26,1.0)] strokeW:1.133333444595337
+        [FRAME] Frame 2119903834 (428.0x879.0) layout:VERTICAL strokeW:1.0 gap:20.0
+          [FRAME] Frame 2119903833 (428.0x259.0) layout:VERTICAL strokeW:1.0 gap:12.0
+            [FRAME] Frame 2119903845 (428.0x259.0) layout:VERTICAL strokeW:1.0
+              [INSTANCE] 03标题 (428.0x36.0) layout:HORIZONTAL align:CENTER/ fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5 pad:0,16.0,12.0,16.0
+                [TEXT] 人气竞速与跑酷游戏 (153.0x24.0) fills:[solid:rgba(0,0,0,1.0)] text:"视频战报" font:PingFang SC/17.0px/w500/lh20.0/ls0.0
+                [FRAME] right contents (243.0x24.0) layout:HORIZONTAL align:MAX/CENTER strokeW:0.5 gap:8.0
+                  [TEXT] 辅助信息 (227.0x24.0) text:"3条新增" font:PingFang SC/14.0px/w400/lh24.0/ls0.0
+                  [FRAME] chevron (8.0x16.0) strokeW:0.5 clip
+                    [INSTANCE] chevron_right (16.0x16.0) strokeW:0.6666666865348816 clip
+              [TEXT] （6条新动态） (80.0x17.0) fills:[solid:rgba(0,153,255,1.0)] text:"（6条新动态）" font:PingFang SC/12.0px/w500/lh16.799999237060547/ls0.0
+              [FRAME] 视频 (396.0x223.0) strokeW:1.0
+                [INSTANCE] 视频 (396.0x223.0) strokeW:1.0 radius:16.0 clip
+                  [GROUP] Group 2119901836 (396.0x222.0) strokeW:1.0 radius:[0.0,0.0,0.0,0.0]
+                    [GROUP] Mask group (396.0x222.0) strokeW:0.8661616444587708 radius:[0.0,0.0,0.0,0.0]
+                  [FRAME] 卡片式圆角 (396.0x224.00450134277344) strokeW:0.2487046867609024 radius:12.0 clip
+                    [RECTANGLE] image (170.6114044189453x95.64578247070312) fills:[image] strokeW:0.43083685636520386
+                    [RECTANGLE] 富媒体图16:9 (396.0x224.00450134277344) fills:[image] strokeW:0.5
+                    [INSTANCE] 富媒体小按钮 Media small button【备份】 (50.0x50.0) strokeW:0.30000001192092896
+                  [FRAME] 标签 (101.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,6.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                    [FRAME] Frame 2119902094 (87.0x17.0) layout:HORIZONTAL strokeW:1.0 gap:4.0
+                    [FRAME] Frame 2119902007 (9.0x9.0) strokeW:1.0
+                  [FRAME] 底部状态 (396.0x80.0) fills:[gradient:[rgba(0,0,0,0.0)@0.0,rgba(0,0,0,0.7)@1.0]] strokeW:0.5772595405578613
+                    [FRAME] Frame 2119901716 (372.0x32.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0
+                [FRAME] 标签 (48.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,8.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                  [TEXT] 2天前 (32.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.49999985098838806 text:"2天前" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                [FRAME] 标签 (122.0x25.0) layout:HORIZONTAL align:MAX/ fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,8.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                  [FRAME] Frame 2119902094 (106.0x17.0) layout:HORIZONTAL strokeW:1.0 gap:4.0
+                    [TEXT] 来自 (24.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.49999985098838806 text:"来自" font:PingFang SC/12.0px/w500/lh16.799999237060547/ls0.0
+                    [INSTANCE] Colorful/ic-colorful-Official-accounts (16.0x16.0) strokeW:0.3333333134651184
+                    [INSTANCE] brand_wechat (16.0x16.0)
+                    [TEXT] 微信90区-白银峡谷 (106.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.49999985098838806 text:"微信90区-白银峡谷" font:PingFang SC/12.0px/w500/lh16.799999237060547/ls0.0
+                  [FRAME] Frame 2119902007 (9.0x9.0) strokeW:1.0
+                    [VECTOR] Union (4.461294174194336x8.089256286621094) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.625 radius:[0.0,0.0,0.0,0.0]
+              [FRAME] Frame 2119903876 (396.0x223.0) strokeW:1.0
+                [FRAME] 视频 (396.0x223.0) strokeW:1.0
+                  [INSTANCE] 视频 (396.0x223.0) strokeW:1.0 radius:16.0 clip
+                    [GROUP] Group 2119901836 (396.0x222.0) strokeW:1.0 radius:[0.0,0.0,0.0,0.0]
+                    [FRAME] 卡片式圆角 (396.0x224.00450134277344) strokeW:0.2487046867609024 radius:12.0 clip
+                    [FRAME] 标签 (101.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,6.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                    [FRAME] 底部状态 (396.0x80.0) fills:[gradient:[rgba(0,0,0,0.0)@0.0,rgba(0,0,0,0.7)@1.0]] strokeW:0.5772595405578613
+                  [FRAME] 标签 (48.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,8.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                    [TEXT] 2天前 (32.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.49999985098838806 text:"2天前" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                  [FRAME] 标签 (102.0x25.0) layout:HORIZONTAL align:MAX/ fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,8.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                    [FRAME] Frame 2119902094 (86.0x17.0) layout:HORIZONTAL strokeW:1.0 gap:4.0
+                    [FRAME] Frame 2119902007 (9.0x9.0) strokeW:1.0
+                [FRAME] 视频 (396.0x223.0) strokeW:1.0
+                  [INSTANCE] 视频 (396.0x223.0) strokeW:1.0 radius:16.0 clip
+                    [GROUP] Group 2119901836 (396.0x222.0) strokeW:1.0 radius:[0.0,0.0,0.0,0.0]
+                    [FRAME] 卡片式圆角 (396.0x224.00450134277344) strokeW:0.2487046867609024 radius:12.0 clip
+                    [FRAME] 标签 (101.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,6.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                    [FRAME] 底部状态 (396.0x80.0) fills:[gradient:[rgba(0,0,0,0.0)@0.0,rgba(0,0,0,0.7)@1.0]] strokeW:0.5772595405578613
+                [FRAME] Frame 2119903881 (380.0x25.0) layout:HORIZONTAL align:SPACE_BETWEEN/CENTER strokeW:1.0 gap:230.0
+                  [FRAME] 标签 (165.0x25.0) layout:HORIZONTAL align:MAX/ fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,8.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                    [FRAME] Frame 2119902094 (149.0x17.0) layout:HORIZONTAL strokeW:1.0 gap:4.0
+                    [FRAME] Frame 2119902007 (9.0x9.0) strokeW:1.0
+                  [INSTANCE] voice_mute (24.0x24.0) strokeW:1.0 clip
+                    [INSTANCE] .Cell/48grid (20.0x20.0) strokeW:1.0
+                    [BOOLEAN_OPERATION] Union (17.255746841430664x18.2080020904541) fills:[solid:rgba(255,255,255,1.0)]
+                  [FRAME] 标签 (48.0x25.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:2.2153847217559814 radius:4.0 pad:4.0,8.0,4.0,8.0 gap:4.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0]
+                    [TEXT] 2天前 (32.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.49999985098838806 text:"2天前" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+            [INSTANCE] 轮播指示器 (90.0x6.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.375 gap:6.0
+              [ELLIPSE] Ellipse 195 (8.0x8.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5
+              [ELLIPSE] Ellipse 195 (8.0x8.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5
+              [ELLIPSE] Ellipse 195 (8.0x8.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5
+              [ELLIPSE] Ellipse 196 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+              [ELLIPSE] Ellipse 197 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+              [ELLIPSE] Ellipse 198 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+              [ELLIPSE] Ellipse 199 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+              [ELLIPSE] Ellipse 200 (8.0x8.0) fills:[solid:rgba(13,16,49,1.0)] strokeW:0.5
+          [FRAME] Frame 2119903832 (428.0x259.0) layout:VERTICAL strokeW:1.0
+            [INSTANCE] 03标题 (428.0x36.0) layout:HORIZONTAL align:CENTER/ fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5 pad:0,16.0,12.0,16.0
+              [TEXT] 人气竞速与跑酷游戏 (153.0x24.0) fills:[solid:rgba(0,0,0,1.0)] text:"高光时刻" font:PingFang SC/17.0px/w500/lh20.0/ls0.0
+              [FRAME] right contents (243.0x24.0) layout:HORIZONTAL align:MAX/CENTER strokeW:0.5 gap:8.0
+                [TEXT] 辅助信息 (227.0x24.0) text:"3条新增" font:PingFang SC/14.0px/w400/lh24.0/ls0.0
+                [FRAME] chevron (8.0x16.0) strokeW:0.5 clip
+                  [INSTANCE] chevron_right (16.0x16.0) strokeW:0.6666666865348816 clip
+                    [INSTANCE] .Cell/48grid (13.333333969116211x13.333333969116211) strokeW:0.6666666865348816
+                    [VECTOR] Union (6.85719108581543x13.133334159851074) fills:[solid:rgba(146,146,150,1.0)] strokeW:1.133333444595337
+            [INSTANCE] 397 (396.0x223.0) strokeW:1.0 radius:16.0 clip
+              [INSTANCE] 黑白切换层 (396.0x223.0) strokeW:1.0
+                [VECTOR] Rectangle 240651876 (396.0x223.0) fills:[gradient:[rgba(255,255,255,1.0)@0.0,rgba(255,255,255,0.8)@0.45,rgba(255,255,255,0.0)@1.0]] strokeW:1.0 radius:16.0
+                [VECTOR] Rectangle 240651878 (396.0x223.0) fills:[gradient:[rgba(255,255,255,1.0)@0.0,rgba(255,255,255,0.8)@0.29,rgba(255,255,255,0.0)@1.0]] strokeW:0.8661616444587708 radius:16.0
+                [VECTOR] Rectangle 240651879 (396.0x223.0) fills:[gradient:[rgba(255,255,255,1.0)@0.0,rgba(255,255,255,0.8)@0.13,rgba(255,255,255,0.0)@1.0]] strokeW:0.8661616444587708 radius:16.0
+              [VECTOR] 颜色 (396.0x223.0) fills:[solid:rgba(217,148,0,1.0)] strokeW:1.0
+              [GROUP] 背景勋章 (150.0x150.0) strokeW:1.0
+                [FRAME] 王者 (150.0x150.0) strokeW:0.6666667461395264 clip
+                  [BOOLEAN_OPERATION] Union (170.3056640625x155.826171875) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5
+                    [VECTOR] Vector (33.25463104248047x78.13509368896484) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5
+                    [VECTOR] Vector (32.85686111450195x78.13509368896484) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5
+                    [VECTOR] Vector (136.3486328125x155.56692504882812) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5
+                    [VECTOR] Vector (136.3486328125x155.58544921875) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5
+                [FRAME] Frame 2119902096 (120.0x120.0) layout:VERTICAL strokeW:1.5 gap:6.0
+                  [FRAME] Frame 2119901867 (120.0x120.0) strokeW:1.4453125 radius:20.812501907348633 clip
+                    [RECTANGLE] image 804 (120.99999237060547x120.0) fills:[image] strokeW:1.734375
+                    [GROUP] Mask group (120.0x120.0) strokeW:2.000000238418579
+                  [TEXT] 无双王者 (73.0x25.0) fills:[solid:rgba(26,28,30,1.0)] strokeW:1.5 text:"无双王者" font:PingFang SC/18.000001907348633px/w400/lh25.200002670288086/ls0.0
+              [FRAME] 操作 (364.0x77.0) layout:VERTICAL strokeW:1.0 gap:12.0
+                [FRAME] Frame 2119902092 (197.0x23.0) layout:HORIZONTAL strokeW:1.0 gap:24.0
+                  [FRAME] 时长 (70.0x23.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0
+                    [TEXT] 晋级场次 (48.0x17.0) fills:[solid:rgba(144,144,148,1.0)] text:"晋级场次" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                    [TEXT] QQ: 23949752 (18.0x23.0) fills:[solid:rgba(26,28,30,1.0)] text:"21" font:Reddit Sans/18.0px/w600/lh23.37890625/ls0.0
+                  [FRAME] 时长 (103.0x23.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0
+                    [TEXT] 晋级胜率 (48.0x17.0) fills:[solid:rgba(144,144,148,1.0)] text:"晋级胜率" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                    [TEXT] QQ: 23949752 (51.0x23.0) fills:[solid:rgba(26,28,30,1.0)] text:"58.3%" font:Reddit Sans/18.0px/w600/lh23.37890625/ls0.0
+                  [FRAME] 时长 (47.0x20.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0
+                    [TEXT] MVP (26.0x17.0) fills:[solid:rgba(144,144,148,1.0)] text:"MVP" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                    [TEXT] QQ: 23949752 (17.0x20.0) fills:[solid:rgba(26,28,30,1.0)] text:"23" font:PingFang SC/14.0px/w600/lh19.600000381469727/ls0.0
+                [FRAME] Frame 2119902102 (364.0x42.0) layout:VERTICAL strokeW:1.0 gap:10.0
+                  [VECTOR] Vector 3457 (364.0000088214856x0.0) stroke:[rgb(0,0,0)] strokeW:0.5
+                  [FRAME] Frame 2119901716 (364.0x32.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0
+                    [FRAME] left contents (290.0x20.0) layout:VERTICAL strokeW:1.0 gap:4.0
+                    [INSTANCE] 圆按钮小 (74.0x32.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] radius:30.0 pad:11.5,8.0,11.5,8.0 gap:5.0
+              [FRAME] 文本 (144.0x74.0) layout:VERTICAL strokeW:1.0 gap:4.0
+                [TEXT] 列表标题 (24.0x17.0) fills:[solid:rgba(60,60,67,1.0)] text:"今天" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                [FRAME] Frame 2119902136 (144.0x53.0) layout:VERTICAL strokeW:1.0 gap:2.0
+                  [TEXT] 列表标题 (144.0x34.0) fills:[solid:rgba(26,28,30,1.0)] text:"晋级最强王者" font:PingFang SC/24.0px/w600/lh33.599998474121094/ls0.0
+                  [TEXT] 列表标题 (64.0x17.0) fills:[solid:rgba(26,28,30,1.0)] text:"本命英雄 镜" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+          [FRAME] Frame 2119903659 (428.0x259.0) layout:VERTICAL strokeW:1.0
+            [INSTANCE] 03标题 (428.0x36.0) layout:HORIZONTAL align:CENTER/ fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5 pad:0,16.0,12.0,16.0
+              [TEXT] 人气竞速与跑酷游戏 (153.0x24.0) fills:[solid:rgba(0,0,0,1.0)] text:"游戏周报" font:PingFang SC/17.0px/w500/lh20.0/ls0.0
+              [FRAME] right contents (243.0x24.0) layout:HORIZONTAL align:MAX/CENTER strokeW:0.5 gap:8.0
+                [TEXT] 辅助信息 (227.0x24.0) text:"3条新增" font:PingFang SC/14.0px/w400/lh24.0/ls0.0
+                [FRAME] chevron (8.0x16.0) strokeW:0.5 clip
+                  [INSTANCE] chevron_right (16.0x16.0) strokeW:0.6666666865348816 clip
+                    [INSTANCE] .Cell/48grid (13.333333969116211x13.333333969116211) strokeW:0.6666666865348816
+                    [VECTOR] Union (6.85719108581543x13.133334159851074) fills:[solid:rgba(146,146,150,1.0)] strokeW:1.133333444595337
+            [FRAME] 元梦 (396.0x223.0) strokeW:1.0 radius:16.0 clip
+              [INSTANCE] 黑白切换层 (396.0x223.0) strokeW:1.0
+                [VECTOR] Rectangle 240651876 (396.0x223.0) fills:[gradient:[rgba(255,255,255,1.0)@0.0,rgba(255,255,255,0.8)@0.45,rgba(255,255,255,0.0)@1.0]] strokeW:1.0 radius:16.0
+                [VECTOR] Rectangle 240651878 (396.0x223.0) fills:[gradient:[rgba(255,255,255,1.0)@0.0,rgba(255,255,255,0.8)@0.29,rgba(255,255,255,0.0)@1.0]] strokeW:0.8661616444587708 radius:16.0
+                [VECTOR] Rectangle 240651879 (396.0x223.0) fills:[gradient:[rgba(255,255,255,1.0)@0.0,rgba(255,255,255,0.8)@0.13,rgba(255,255,255,0.0)@1.0]] strokeW:0.8661616444587708 radius:16.0
+              [VECTOR] 颜色 (396.0x223.0) fills:[solid:rgba(255,0,0,1.0)] strokeW:0.8661616444587708
+              [GROUP] 背景 (150.0x150.0) strokeW:1.0
+                [FRAME] 王者 (150.0x150.0) strokeW:0.7162061333656311 clip
+                  [BOOLEAN_OPERATION] Union (170.306640625x155.826171875) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.5371545553207397
+                    [VECTOR] Vector (33.25463104248047x78.13509368896484) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5371545553207397
+                    [VECTOR] Vector (32.85685729980469x78.13509368896484) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5371545553207397
+                    [VECTOR] Vector (136.3486328125x155.56692504882812) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5371545553207397
+                    [VECTOR] Vector (136.3486328125x155.58544921875) fills:[solid:rgba(0,0,0,1.0)] strokeW:0.5371545553207397
+                [FRAME] 战报一字 (120.0x120.0) layout:VERTICAL align:CENTER/CENTER strokeW:1.25 gap:5.0
+                  [TEXT] 无双王者 (60.0x21.0) fills:[solid:rgba(26,28,30,1.0)] strokeW:1.25 text:"无双王者" font:PingFang SC/15.0px/w400/lh21.0/ls0.0
+                  [FRAME] Frame 2119902096 (120.0x120.0) layout:VERTICAL strokeW:1.5145630836486816 gap:6.058252334594727
+                    [FRAME] Frame 2119902096 (121.16504669189453x121.16504669189453) layout:VERTICAL align:CENTER/CENTER strokeW:1.2621358633041382 gap:5.048543453216553
+                    [TEXT] 无双王者 (73.0x25.0) fills:[solid:rgba(26,28,30,1.0)] strokeW:1.5145630836486816 text:"无双王者" font:PingFang SC/18.17475700378418px/w400/lh25.444660186767578/ls0.0
+              [FRAME] Frame 2119902095 (364.0x77.0) layout:VERTICAL strokeW:1.0 gap:12.0
+                [FRAME] Frame 2119902092 (197.0x23.0) layout:HORIZONTAL strokeW:1.0 gap:24.0
+                  [FRAME] 时长 (70.0x23.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0
+                    [TEXT] 对局场次 (48.0x17.0) fills:[solid:rgba(144,144,148,1.0)] text:"对局场次" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                    [TEXT] QQ: 23949752 (18.0x23.0) fills:[solid:rgba(26,28,30,1.0)] text:"12" font:Reddit Sans/18.0px/w600/lh23.37890625/ls0.0
+                  [FRAME] 时长 (103.0x23.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0
+                    [TEXT] 平均胜率 (48.0x17.0) fills:[solid:rgba(144,144,148,1.0)] text:"平均胜率" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                    [TEXT] QQ: 23949752 (51.0x23.0) fills:[solid:rgba(26,28,30,1.0)] text:"58.3%" font:Reddit Sans/18.0px/w600/lh23.37890625/ls0.0
+                  [FRAME] 时长 (72.0x20.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:4.0
+                    [TEXT] 平均得分 (48.0x17.0) fills:[solid:rgba(144,144,148,1.0)] text:"平均得分" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                    [TEXT] QQ: 23949752 (20.0x20.0) fills:[solid:rgba(26,28,30,1.0)] text:"7.2" font:PingFang SC/14.0px/w600/lh19.600000381469727/ls0.0
+                [FRAME] Frame 2119902102 (364.0x42.0) layout:VERTICAL strokeW:1.0 gap:10.0
+                  [VECTOR] Vector 3457 (364.0000088214856x0.0) stroke:[rgb(0,0,0)] strokeW:0.5
+                  [FRAME] Frame 2119901716 (364.0x32.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0
+                    [FRAME] left contents (290.0x20.0) layout:VERTICAL strokeW:1.0 gap:4.0
+                    [INSTANCE] 圆按钮小 (74.0x32.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] radius:30.0 pad:11.5,8.0,11.5,8.0 gap:5.0
+                [FRAME] Frame 2119902094 (364.0x40.0) layout:HORIZONTAL strokeW:1.0 pad:0,80.0,0,80.0 gap:12.0
+                  [INSTANCE] 按钮 Button (204.0x40.0) fills:[solid:rgba(255,255,255,1.0)] stroke:[rgb(165,165,165)] strokeW:0.5 radius:12.0
+                    [TEXT] 按钮文案 (188.0x24.0) fills:[solid:rgba(0,0,0,1.0)] text:"炫耀一下" font:PingFang SC/17.0px/w500/lh24.0/ls0.0
+                  [INSTANCE] 按钮 Button (176.0x40.0) fills:[solid:rgba(255,255,255,1.0)] radius:12.0
+                    [TEXT] 按钮文案 (160.0x24.0) fills:[solid:rgba(26,28,30,1.0)] text:"炫耀一下" font:PingFang SC/17.0px/w500/lh24.0/ls0.0
+              [FRAME] Frame 2119902094 (168.0x74.0) layout:VERTICAL strokeW:1.0 gap:4.0
+                [FRAME] 图标文字 (37.0x17.0) layout:HORIZONTAL strokeW:1.0 gap:8.0
+                  [TEXT] 列表标题 (37.0x17.0) fills:[solid:rgba(60,60,67,1.0)] text:"10天前" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+                [FRAME] Frame 2119902091 (168.0x53.0) layout:VERTICAL strokeW:1.0 gap:2.0
+                  [TEXT] 列表标题 (168.0x34.0) fills:[solid:rgba(26,28,30,1.0)] text:"王者周报已送达" font:PingFang SC/24.0px/w600/lh33.599998474121094/ls0.0
+                  [TEXT] 列表标题 (72.0x17.0) fills:[solid:rgba(26,28,30,1.0)] text:"02.25-03.06" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+          [FRAME] Frame 2119902191 (98.0x36.0) layout:VERTICAL strokeW:1.0 pad:16.0,0,0,0 gap:10.0
+            [INSTANCE] Loading (98.0x20.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.5 gap:4.0
+              [INSTANCE] Loading (20.0x20.0) strokeW:0.5263158082962036
+                [BOOLEAN_OPERATION] Shape (16.0x16.0)
+                  [VECTOR] Path (15.999996185302734x15.999998092651367)
+                  [VECTOR] Path (2.1558525562286377x2.432500123977661)
+                  [VECTOR] Path (2.5028908252716064x2.1219406127929688)
+              [TEXT] 加载中，请稍候… (98.0x20.0) fills:[solid:rgba(60,60,67,1.0)] text:"已触碰到底线了" font:PingFang SC/14.0px/w400/lh20.0/ls0.0
+  [INSTANCE] 切换 (220.0x29.0) layout:HORIZONTAL fills:[solid:rgba(0,0,0,1.0)] strokeW:1.0 radius:20.0 pad:2.0,2.0,2.0,2.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:10.0; DROP_SHADOW(0,0,0,0.12) offset:0.0,4.0 blur:12.0]
+    [INSTANCE] 切换 (72.0x25.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0 radius:20.0 pad:4.0,12.0,4.0,12.0 gap:8.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:20.0; DROP_SHADOW(0,0,0,0.12) offset:0.0,4.0 blur:12.0]
+      [TEXT] 王者高光 (48.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0 text:"视频战报" font:PingFang SC/12.0px/w500/lh14.0625/ls0.0
+    [INSTANCE] 切换 (72.0x25.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0 radius:20.0 pad:4.0,12.0,4.0,12.0 gap:8.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:20.0; DROP_SHADOW(0,0,0,0.12) offset:0.0,4.0 blur:12.0]
+      [TEXT] 和平高光 (48.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0 text:"和平高光" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+    [INSTANCE] 切换 (72.0x25.0) layout:HORIZONTAL fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0 radius:20.0 pad:4.0,12.0,4.0,12.0 gap:8.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:20.0; DROP_SHADOW(0,0,0,0.12) offset:0.0,4.0 blur:12.0]
+      [TEXT] 和平高光 (48.0x17.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0 text:"游戏动态" font:PingFang SC/12.0px/w400/lh16.799999237060547/ls0.0
+  [INSTANCE] 二级页面导航 (428.0x88.0) layout:VERTICAL strokeW:0.5
+    [INSTANCE] 导航/状态栏/1_iOS/iPhoneX/黑字 (428.0x44.0)
+      [FRAME] Frame 96 (47.60041427612305x11.333333015441895) layout:HORIZONTAL align:MAX/CENTER strokeW:1.0 gap:8.0
+        [BOOLEAN_OPERATION] 信号 (17.0x10.666829109191895) fills:[solid:rgba(0,0,0,1.0)]
+          [VECTOR] Cellular_Connection-path (3.0x4.0) fills:[solid:rgba(255,255,255,1.0)]
+          [VECTOR] Cellular_Connection-path (3.0x6.0) fills:[solid:rgba(255,255,255,1.0)]
+          [VECTOR] Cellular_Connection-path (3.0x8.333333015441895) fills:[solid:rgba(255,255,255,1.0)]
+          [VECTOR] Cellular_Connection-path (3.0x10.666666984558105) fills:[solid:rgba(255,255,255,1.0)]
+        [BOOLEAN_OPERATION] Wifi (15.272473335266113x10.965994834899902) fills:[solid:rgba(0,0,0,1.0)]
+          [VECTOR] Wifi-path (15.27237606048584x4.743237495422363) fills:[solid:rgba(255,255,255,1.0)]
+          [VECTOR] Wifi-path (9.94901180267334x3.6339809894561768) fills:[solid:rgba(255,255,255,1.0)]
+          [VECTOR] Wifi-path (4.626293659210205x3.3744072914123535) fills:[solid:rgba(255,255,255,1.0)]
+        [GROUP] 电池 (24.32803726196289x11.333333015441895) radius:[0.0,0.0,0.0,0.0]
+          [RECTANGLE] Border (22.0x11.333333015441895) stroke:[rgb(0,0,0)] strokeW:1.0 radius:2.6666667461395264 opacity:0.3499999940395355
+          [VECTOR] Cap (1.328037977218628x4.0) fills:[solid:rgba(0,0,0,1.0)] opacity:0.4000000059604645
+          [RECTANGLE] Capacity (18.0x7.333333492279053) fills:[solid:rgba(0,0,0,1.0)] radius:1.3333333730697632
+      [TEXT] ↳ Time (37.5x17.0) fills:[solid:rgba(0,0,0,1.0)] text:"09:00" font:PingFang SC/14.0px/w600/lh17.0/ls0.0
+      [FRAME] Time (159.7866668701172x44.0) strokeW:1.0
+        [TEXT] Time (40.0x22.0) fills:[solid:rgba(255,255,255,1.0)] text:"9:00" font:SF Pro/17.0px/w590/lh22.0/ls0.0
+      [FRAME] Levels (141.0x44.0) strokeW:1.0
+        [GROUP] Battery (27.32803726196289x13.0) radius:[0.0,0.0,0.0,0.0]
+          [RECTANGLE] Border (25.0x13.0) stroke:[rgb(255,255,255)] strokeW:1.0 radius:4.300000190734863 opacity:0.3499999940395355
+          [VECTOR] Cap (1.328037977218628x4.075471878051758) fills:[solid:rgba(255,255,255,1.0)] opacity:0.4000000059604645
+          [RECTANGLE] Capacity (21.0x9.0) fills:[solid:rgba(255,255,255,1.0)] radius:2.5
+        [VECTOR] Wifi (17.141666412353516x12.328306198120117) fills:[solid:rgba(255,255,255,1.0)]
+        [VECTOR] Cellular Connection (19.200000762939453x12.226415634155273) fills:[solid:rgba(255,255,255,1.0)]
+    [FRAME] navigationbar (428.0x44.0) strokeW:0.5
+      [FRAME] right contents (96.0x44.0) layout:HORIZONTAL align:MAX/CENTER strokeW:1.0 pad:0,16.0,0,16.0 gap:8.0
+        [FRAME] items (28.0x28.0) layout:HORIZONTAL align:CENTER/CENTER fills:[solid:rgba(102,102,102,1.0)] strokeW:1.0 radius:24.0 pad:10.0,10.0,10.0,10.0 gap:10.0
+          [INSTANCE] icon1 (20.0x20.0) strokeW:0.8333333134651184
+            [INSTANCE] .Cell/48grid (16.66666603088379x16.66666603088379) strokeW:0.8333333134651184
+              [RECTANGLE] Rectangle 4 (16.66666603088379x16.66666603088379) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602
+              [RECTANGLE] Rectangle 1 (15.0x15.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602 radius:1.666666865348816
+              [RECTANGLE] Rectangle 2 (15.833333015441895x14.166666030883789) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602 radius:1.666666865348816
+              [RECTANGLE] Rectangle 3 (14.166666030883789x15.833333015441895) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602 radius:1.666666865348816
+              [ELLIPSE] Ellipse 22 (16.66666603088379x16.66666603088379) stroke:[rgb(0,153,255)] strokeW:0.0833333358168602
+            [VECTOR] Union (16.41666603088379x15.666952133178711) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.4166666269302368
+        [FRAME] items (28.0x28.0) layout:HORIZONTAL align:CENTER/CENTER fills:[solid:rgba(102,102,102,1.0)] strokeW:1.0 radius:24.0 pad:10.0,10.0,10.0,10.0 gap:10.0
+          [INSTANCE] download (20.0x20.0) strokeW:1.0 clip
+            [INSTANCE] .Cell/48grid (16.666667938232422x16.666667938232422) strokeW:1.0
+              [RECTANGLE] Rectangle 4 (16.666667938232422x16.666667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+              [RECTANGLE] Rectangle 1 (15.000000953674316x15.000000953674316) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 2 (15.833334922790527x14.166667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 3 (14.166667938232422x15.833334922790527) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [ELLIPSE] Ellipse 22 (16.666667938232422x16.666667938232422) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+            [VECTOR] Union (15.004069328308105x15.417479515075684) fills:[solid:rgba(255,255,255,1.0)]
+        [FRAME] items (28.0x28.0) layout:HORIZONTAL align:CENTER/CENTER fills:[solid:rgba(102,102,102,1.0)] strokeW:1.0 radius:24.0 pad:10.0,10.0,10.0,10.0 gap:10.0
+          [INSTANCE] setting (20.0x20.0) strokeW:0.7674419283866882 clip
+            [INSTANCE] .Cell/48grid (16.666667938232422x16.666667938232422) strokeW:1.0
+              [RECTANGLE] Rectangle 4 (16.666667938232422x16.666667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+              [RECTANGLE] Rectangle 1 (15.000000953674316x15.000000953674316) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 2 (15.833334922790527x14.166667938232422) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 3 (14.166667938232422x15.833334922790527) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [ELLIPSE] Ellipse 22 (16.666667938232422x16.666667938232422) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+            [VECTOR] Union (16.135211944580078x16.647775650024414) fills:[solid:rgba(255,255,255,1.0)]
+      [FRAME] left contents (60.0x44.0) layout:HORIZONTAL strokeW:1.0 pad:0,16.0,0,16.0 gap:10.0
+        [FRAME] left items (28.0x28.0) layout:HORIZONTAL align:CENTER/CENTER fills:[solid:rgba(102,102,102,1.0)] strokeW:1.0 radius:24.0 pad:10.0,10.0,10.0,10.0 gap:10.0
+          [INSTANCE] icon1 (20.0x20.0) strokeW:0.4166666567325592
+            [INSTANCE] .Cell/48grid (16.66666603088379x16.66666603088379) strokeW:0.8333333134651184
+              [RECTANGLE] Rectangle 4 (16.66666603088379x16.66666603088379) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602
+              [RECTANGLE] Rectangle 1 (15.0x15.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602 radius:1.666666865348816
+              [RECTANGLE] Rectangle 2 (15.833333015441895x14.166666030883789) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602 radius:1.666666865348816
+              [RECTANGLE] Rectangle 3 (14.166666030883789x15.833333015441895) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.0833333358168602 radius:1.666666865348816
+              [ELLIPSE] Ellipse 22 (16.66666603088379x16.66666603088379) stroke:[rgb(0,153,255)] strokeW:0.0833333358168602
+            [VECTOR] Union (8.571488380432129x16.41666603088379) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.4166666269302368
+      [TEXT] 标题 (68.0x24.0) fills:[solid:rgba(0,0,0,1.0)] text:"近期战报" font:PingFang SC/17.0px/w500/lh23.799999237060547/ls0.0
+  [FRAME] 非选中 (428.0x90.0) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.0
+    [FRAME] TabBar (428.0x90.0) layout:VERTICAL fills:[solid:rgba(243,243,247,1.0)] stroke:[rgb(0,0,0)] strokeW:1.0 effects:[BACKGROUND_BLUR(0,0,0,1) offset:0,0 blur:40.0]
+      [FRAME] item (428.0x56.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:0.5
+        [FRAME] 导航项 (107.0x56.0) layout:VERTICAL align:CENTER/CENTER strokeW:0.5 pad:0,4.0,0,4.0 gap:4.0
+          [FRAME] 线icon (29.0x29.0) strokeW:0.9999999403953552 clip
+            [GROUP] Group 1321317100 (19.70953941345215x15.079999923706055) strokeW:0.8532267212867737 radius:[0.0,0.0,0.0,0.0]
+              [VECTOR] Union (19.70953941345215x15.079999923706055) stroke:[rgb(26,28,30)] strokeW:1.9333332777023315 radius:[0.0,0.0,0.0,0.0]
+              [VECTOR] Union (6.1875x6.1875) stroke:[rgb(26,28,30)] strokeW:2.0
+              [VECTOR] Union (5.279340744018555x5.279340744018555) stroke:[rgb(66,66,66)] strokeW:1.1262593269348145
+          [INSTANCE] Nav_btm_game (29.0x29.0) strokeW:1.0 clip
+            [GROUP] Group 2119902107 (29.0x29.0) strokeW:1.0
+              [RECTANGLE] 矩形 (29.0x29.0)
+              [VECTOR] Union (24.338777542114258x18.0) fills:[solid:rgba(47,48,51,1.0)] strokeW:1.8807239532470703
+          [TEXT] 文本 (99.0x14.0) fills:[solid:rgba(0,0,0,1.0)] text:"游戏" font:PingFang SC/10.0px/w400/lh14.0/ls0.0
+        [FRAME] 导航项 (107.0x56.0) layout:VERTICAL align:CENTER/CENTER strokeW:0.5 pad:0,4.0,0,4.0 gap:4.0
+          [FRAME] message (29.0x29.0) strokeW:1.0000001192092896 clip
+            [INSTANCE] .Cell/48grid (20.0x20.0) strokeW:1.0
+              [RECTANGLE] Rectangle 4 (20.0x20.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+              [RECTANGLE] Rectangle 1 (18.0x18.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 2 (19.0x17.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [RECTANGLE] Rectangle 3 (17.0x19.0) fills:[solid:rgba(0,153,255,1.0)] stroke:[rgb(0,153,255)] strokeW:0.10000000149011612 radius:2.000000238418579
+              [ELLIPSE] Ellipse 22 (20.0x20.0) stroke:[rgb(0,153,255)] strokeW:0.10000000149011612
+            [VECTOR] union (21.0x21.0) stroke:[rgb(255,61,0)] strokeW:2.0 radius:[0.0,0.0,0.0,0.0] opacity:0.30000001192092896
+            [VECTOR] union (Stroke) (21.0x20.63130760192871) fills:[solid:rgba(26,26,26,1.0)] strokeW:2.0
+          [FRAME] 线icon (29.0x29.0) strokeW:0.4398333430290222 clip
+            [GROUP] Group 1321317150 (18.761247634887695x24.16653060913086) strokeW:0.8983057141304016
+              [BOOLEAN_OPERATION] Union (18.761247634887695x18.76020622253418) stroke:[rgb(26,28,30)] strokeW:1.9333332777023315
+                [ELLIPSE] Ellipse 5639 (25.407921035246773x25.407921035246773) fills:[solid:rgba(217,217,217,1.0)] strokeW:1.5466666221618652
+                [ELLIPSE] Ellipse 5642 (25.40792167776499x25.407920392728556) fills:[solid:rgba(217,217,217,1.0)] strokeW:1.5466666221618652
+              [VECTOR] Ellipse 5643 (10.379909826403264x10.379909826403377) stroke:[rgb(26,28,30)] strokeW:1.9333332777023315
+              [VECTOR] Ellipse 5639 (10.106281026610759x10.106281026610759) stroke:[rgb(26,28,30)] strokeW:1.9333332777023315
+              [LINE] Line 80 (4.446386231744327x4.446386231744441) stroke:[rgb(39,39,39)] strokeW:1.4372891187667847
+          [GROUP] Group 2119902896 (29.0x29.0) strokeW:1.0
+            [FRAME] Frame 2119904334 (29.0x29.0) layout:HORIZONTAL align:CENTER/CENTER strokeW:1.0 gap:8.0
+              [INSTANCE] Universal ICONS for games (27.000003814697266x27.000003814697266) strokeW:1.125000238418579 clip
+                [GROUP] Group 2119902117 (22.505332946777344x17.767366409301758) strokeW:0.8883683681488037 radius:[0.0,0.0,0.0,0.0]
+                  [VECTOR] Vector 3917 (22.505332946777344x17.767366409301758) stroke:[rgb(47,48,51)] strokeW:1.7000000476837158 radius:[0.0,0.0,0.0,0.0]
+                  [ELLIPSE] Ellipse 12 (4.737964630126953x4.737964630126953) stroke:[rgb(47,48,51)] strokeW:1.7000000476837158
+                  [VECTOR] Vector 3918 (1.1845889596272627x1.9142764226077134) stroke:[rgb(47,48,51)] strokeW:1.7000000476837158
+            [VECTOR] Vector 3796 (6.0x0.0) stroke:[rgb(47,48,51)] strokeW:1.7000000476837158
+            [VECTOR] Vector 3797 (6.0x0.0) stroke:[rgb(47,48,51)] strokeW:1.7000000476837158
+          [TEXT] 文本 (99.0x14.0) fills:[solid:rgba(0,0,0,1.0)] text:"攻略" font:PingFang SC/10.0px/w400/lh14.0/ls0.0
+        [FRAME] 导航项 (107.0x56.0) layout:VERTICAL align:CENTER/CENTER strokeW:0.5 pad:0,4.0,0,4.0 gap:4.0
+          [FRAME] Frame 2119902073 (29.0x29.0) strokeW:1.0
+            [INSTANCE] 线icon (31.0x31.0) strokeW:0.5344827175140381
+              [BOOLEAN_OPERATION] Union (12.999992221477441x12.999992221477441) stroke:[rgb(26,28,30)] strokeW:2.066666603088379
+                [VECTOR] Vector 1952 (11.539021981894166x11.539021981894166) stroke:[rgb(26,28,30)] strokeW:2.066666603088379 radius:1.6484317779541016
+                [VECTOR] Vector 1953 (5.7019435247943875x5.7019435247943875) stroke:[rgb(43,46,49)] strokeW:1.6726868152618408 radius:1.6484317779541016
+                [VECTOR] Vector 1954 (5.266392267765468x5.266392267765468) stroke:[rgb(43,46,49)] strokeW:1.6726868152618408 radius:1.6484317779541016
+              [VECTOR] Subtract (22.75335543801043x22.75335543801043) stroke:[rgb(26,28,30)] strokeW:2.066666603088379 radius:[0.0,0.0,0.0,0.0]
+          [FRAME] Universal ICONS for games (29.0x29.0) strokeW:0.90625 clip
+            [GROUP] Group 2119902891 (0.0x0.0) strokeW:0.90625 radius:[0.0,0.0,0.0,0.0]
+              [GROUP] Group 2119902894 (29.0x29.0) strokeW:0.90625 radius:[0.0,0.0,0.0,0.0]
+                [RECTANGLE] Rectangle 240652863 (26.100000381469727x26.099998474121094) stroke:[rgb(255,0,0)] strokeW:0.10875000059604645 radius:2.718749761581421 opacity:0.5
+                [VECTOR] Rectangle 240652864 (29.0x29.0) stroke:[rgb(0,161,255)] strokeW:0.10875000059604645 opacity:0.5
+                [VECTOR] Rectangle 240652865 (29.0x29.0) stroke:[rgb(0,161,255)] strokeW:0.10875000059604645 opacity:0.5
+                [RECTANGLE] Rectangle 240652866 (23.19999885559082x29.0) stroke:[rgb(114,0,255)] strokeW:0.10875000059604645 radius:2.718749761581421 opacity:0.5
+                [RECTANGLE] Rectangle 240652867 (29.0000010141041x23.20000012322123) stroke:[rgb(32,179,42)] strokeW:0.10875000059604645 radius:2.718749761581421 opacity:0.5
+                [ELLIPSE] Ellipse 6291 (29.0x29.0) stroke:[rgb(0,110,255)] strokeW:0.10875000059604645 opacity:0.5
+            [GROUP] Group 2119902895 (16.434070587158203x20.0) strokeW:0.8857793211936951
+              [ELLIPSE] Ellipse 6329 (6.763670921325684x6.763670921325684) stroke:[rgb(26,26,26)] strokeW:1.7000000476837158
+              [ELLIPSE] Ellipse 6330 (6.763670921325684x6.763670921325684) stroke:[rgb(26,26,26)] strokeW:1.7000000476837158
+              [VECTOR] Vector (16.434070587158203x11.486700057983398) stroke:[rgb(26,26,26)] strokeW:1.7000000476837158
+          [TEXT] 文本 (99.0x14.0) fills:[solid:rgba(0,0,0,1.0)] text:"搭子" font:PingFang SC/10.0px/w400/lh14.0/ls0.0
+        [FRAME] 导航项 (107.0x56.0) layout:VERTICAL align:CENTER/CENTER strokeW:0.5 pad:0,4.0,0,4.0 gap:4.0
+          [INSTANCE] 线icon (29.0x29.0) strokeW:0.4999999701976776
+            [BOOLEAN_OPERATION] Union (15.999999046325684x17.0601806640625) fills:[solid:rgba(66,66,66,1.0)]
+              [VECTOR] Union (10.0x10.0) stroke:[rgb(66,66,66)] strokeW:1.2413792610168457
+              [VECTOR] Rectangle 617 (15.999999046325684x6.0) stroke:[rgb(66,66,66)] strokeW:1.2413792610168457
+            [BOOLEAN_OPERATION] Union (15.999999046325684x17.348142623901367) stroke:[rgb(26,28,30)] strokeW:1.9333332777023315
+              [VECTOR] Union (10.0x10.0) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.2413792610168457
+              [VECTOR] Rectangle 617 (15.999999046325684x7.848145008087158) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.2413792610168457 radius:[0.0,0.0,0.0,0.0]
+          [INSTANCE] 线icon (29.0x29.0) strokeW:0.4999999701976776
+            [BOOLEAN_OPERATION] Union (17.399999618530273x18.866106033325195) fills:[solid:rgba(0,153,255,1.0)] strokeW:1.407087802886963
+              [VECTOR] Union (10.875000953674316x10.875000953674316) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.350000023841858
+              [VECTOR] Rectangle 617 (17.399999618530273x8.534857749938965) fills:[solid:rgba(0,0,0,1.0)] strokeW:1.350000023841858 radius:[0.0,0.0,0.0,0.0]
+            [RECTANGLE] Rectangle 240647765 (3.5999999046325684x1.9999998807907104) fills:[solid:rgba(255,255,255,1.0)] strokeW:1.034482717514038
+            [RECTANGLE] Rectangle 34624159 (3.8666664556421892x3.8666664556421892) fills:[solid:rgba(255,255,255,1.0)] strokeW:0.7071068286895752 radius:0.22857144474983215
+          [INSTANCE] Nav_btm_user (29.0x29.0) strokeW:0.5
+            [BOOLEAN_OPERATION] Union (17.69921875x20.759765625) fills:[solid:rgba(0,153,255,1.0)]
+              [VECTOR] Union (10.0x10.0) stroke:[rgb(26,28,30)] strokeW:1.7000000476837158
+              [VECTOR] Rectangle 617 (16.0x6.0) stroke:[rgb(26,28,30)] strokeW:1.7000000476837158 radius:[0.0,0.0,0.0,0.0]
+          [TEXT] 文本 (99.0x14.0) fills:[solid:rgba(0,153,255,1.0)] text:"我的" font:PingFang SC/10.0px/w400/lh14.0/ls0.0
+      [INSTANCE] HomeIndicator (428.0x34.0) opacity:0.0
+        [RECTANGLE] 矩形 (148.0x5.0) fills:[solid:rgba(0,0,0,1.0)] radius:2.5

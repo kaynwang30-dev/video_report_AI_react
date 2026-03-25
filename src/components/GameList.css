@@ -1,0 +1,104 @@
+.game-list-section {
+  margin-bottom: 20px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 12px;
+}
+
+.section-title {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  line-height: 20px;
+}
+
+.section-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.game-icons-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.game-icon-item {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+}
+
+.game-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+}
+
+.game-icon-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+.game-icon-placeholder {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-icon-placeholder.mini-game-img {
+  border-radius: 50%;
+}
+
+.game-icon-emoji {
+  font-size: 28px;
+}
+
+.mini-game-badge {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+}
+
+.mini-badge-circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00B240;
+  border: 1px solid #EFF4FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-scroll-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 0;
+}
+
+.scroll-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.scroll-dot.active {
+  background: rgba(0, 0, 0, 0.35);
+}
