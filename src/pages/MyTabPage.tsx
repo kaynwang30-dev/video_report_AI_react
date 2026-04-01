@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import StatusBar from '../components/StatusBar'
 import NavigationBar from '../components/NavigationBar'
 import VideoBanner from '../components/VideoBanner'
 import UserProfile from '../components/UserProfile'
@@ -38,9 +37,8 @@ const MyTabPage: React.FC<MyTabPageProps> = ({ onOpenDetail, onOpenHighlightVod 
 
   return (
     <div className="my-tab-page">
-      {/* 顶部状态栏 + 导航栏 - 固定定位 */}
+      {/* 顶部导航栏 - 固定定位（去掉状态栏时间行） */}
       <div className="top-fixed">
-        <StatusBar />
         <NavigationBar />
       </div>
 
@@ -73,7 +71,7 @@ const MyTabPage: React.FC<MyTabPageProps> = ({ onOpenDetail, onOpenHighlightVod 
                   <div className="game-selector-left">
                     <img
                       className="game-selector-icon"
-                      src="/icon/wzry.png"
+                      src={`${import.meta.env.BASE_URL}icon/wzry.png`}
                       alt="王者荣耀"
                     />
                     <span className="game-selector-name">王者荣耀</span>

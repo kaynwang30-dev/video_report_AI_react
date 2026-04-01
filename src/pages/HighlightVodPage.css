@@ -232,7 +232,7 @@
   flex: 1;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  padding: 0 0 calc(90px + env(safe-area-inset-bottom, 20px));
+  padding: 0 0 calc(50px + env(safe-area-inset-bottom, 20px));
 }
 
 /* ===== 功能说明区 ===== */
@@ -576,6 +576,31 @@
   margin-bottom: 14px;
 }
 
+/* 数据校验警告 */
+.vod-data-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  background: linear-gradient(135deg, #FFF8F0, #FFF3E3);
+  border: 1px solid #FFD9A0;
+  border-radius: 10px;
+  margin-bottom: 4px;
+}
+
+.vod-data-warning-icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.vod-data-warning-text {
+  font-size: 13px;
+  color: #B06D00;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
 .vod-dim-tag {
   display: flex;
   align-items: center;
@@ -584,6 +609,11 @@
   background: #F5F3FF;
   border-radius: 20px;
   border: 1px solid rgba(124, 92, 252, 0.12);
+  max-width: 100%;
+}
+
+.vod-dim-tag.wide {
+  flex-basis: 100%;
 }
 
 .vod-dim-tag-label {
@@ -592,6 +622,7 @@
   color: #8C8C8C;
   line-height: 17px;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .vod-dim-tag-value {
@@ -599,7 +630,22 @@
   font-weight: 600;
   color: #5B3FD9;
   line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.vod-dim-sub {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(135deg, #7C5CFC 0%, #4D9EFF 100%);
+  padding: 1px 6px;
+  border-radius: 6px;
+  margin-right: 6px;
+  vertical-align: middle;
+  line-height: 16px;
 }
 
 /* 凝练句子包裹 */
@@ -680,6 +726,388 @@
   background: linear-gradient(135deg, #7C5CFC 0%, #4D9EFF 100%);
   color: #fff;
   box-shadow: 0 4px 16px rgba(124, 92, 252, 0.2);
+}
+
+.vod-refined-btn.secondary {
+  background: #F5F5F7;
+  color: #666;
+  flex: 0 0 auto;
+  padding: 12px 20px;
+}
+
+.vod-refined-btn.secondary:active {
+  background: #E8E8EA;
+}
+
+/* ===== 凝练中提示文案 ===== */
+.vod-refining-hint {
+  font-size: 13px;
+  font-weight: 400;
+  color: #8C8C8C;
+  line-height: 20px;
+  margin: -4px 0 0 42px;
+}
+
+/* ===== 确认卡片式维度布局 ===== */
+.vod-confirm-dims {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 16px;
+  background: #F8F8FA;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.vod-confirm-dim-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.vod-confirm-dim-item:last-child {
+  border-bottom: none;
+}
+
+.vod-confirm-dim-item.wide .vod-confirm-dim-value {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.vod-confirm-dim-icon {
+  font-size: 18px;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.vod-confirm-dim-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.vod-confirm-dim-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #8C8C8C;
+  line-height: 18px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.vod-confirm-dim-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1C1E;
+  line-height: 20px;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ===== 新版确认界面：段落标题 ===== */
+.vod-confirm-section-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1C1E;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.vod-confirm-section-label:first-of-type {
+  margin-top: 4px;
+}
+
+.vod-confirm-section-num {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7C5CFC 0%, #4D9EFF 100%);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* 游戏标签 */
+.vod-confirm-game-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: #F8F8FA;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1C1E;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+/* ===== 对局卡片列表 ===== */
+.vod-match-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.vod-match-card {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  background: #F8F8FA;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  transition: all 0.2s;
+}
+
+.vod-match-card:active {
+  transform: scale(0.99);
+  background: #F0F0F2;
+}
+
+.vod-match-card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.vod-match-hero-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #E8E0FF 0%, #D6ECFF 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vod-match-hero-emoji {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.vod-match-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 6px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.vod-match-badge.mvp {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #fff;
+}
+
+.vod-match-badge.top {
+  background: linear-gradient(135deg, #FF4D4F 0%, #FF7875 100%);
+  color: #fff;
+}
+
+.vod-match-badge.gold {
+  background: linear-gradient(135deg, #FAAD14 0%, #FFC53D 100%);
+  color: #fff;
+}
+
+.vod-match-badge.silver {
+  background: linear-gradient(135deg, #8C8C8C 0%, #BFBFBF 100%);
+  color: #fff;
+}
+
+.vod-match-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vod-match-card-row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vod-match-hero-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1A1C1E;
+  line-height: 21px;
+}
+
+.vod-match-result {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1px 8px;
+  border-radius: 6px;
+  line-height: 18px;
+}
+
+.vod-match-result.win {
+  background: rgba(52, 199, 89, 0.12);
+  color: #34C759;
+}
+
+.vod-match-result.lose {
+  background: rgba(255, 59, 48, 0.1);
+  color: #FF3B30;
+}
+
+.vod-match-card-row2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vod-match-kda {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.vod-kda-kill {
+  color: #34C759;
+}
+
+.vod-kda-death {
+  color: #FF3B30;
+}
+
+.vod-kda-assist {
+  color: #4D9EFF;
+}
+
+.vod-kda-sep {
+  color: #C0C0C4;
+  margin: 0 1px;
+}
+
+.vod-match-mode {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8C8C8C;
+  line-height: 17px;
+}
+
+.vod-match-date {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ACACAC;
+  line-height: 17px;
+}
+
+.vod-match-card-row3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.vod-match-hl-tag {
+  font-size: 11px;
+  font-weight: 500;
+  color: #7C5CFC;
+  background: rgba(124, 92, 252, 0.08);
+  padding: 2px 8px;
+  border-radius: 6px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+/* 开黑好友行 */
+.vod-match-card-teammates {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-top: 1px;
+}
+
+.vod-match-card-teammates svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.vod-match-teammates-label {
+  font-size: 11px;
+  font-weight: 400;
+  color: #ACACAC;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.vod-match-teammate-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: #4D9EFF;
+  background: rgba(77, 158, 255, 0.08);
+  padding: 1px 8px;
+  border-radius: 6px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.vod-match-empty {
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #ACACAC;
+  background: #F8F8FA;
+  border-radius: 12px;
+}
+
+/* ===== 高光片段描述 ===== */
+.vod-confirm-highlight-desc {
+  padding: 12px 14px;
+  background: linear-gradient(135deg, rgba(124, 92, 252, 0.04) 0%, rgba(77, 158, 255, 0.04) 100%);
+  border-radius: 12px;
+  border: 1px solid rgba(124, 92, 252, 0.08);
+  margin-bottom: 16px;
+}
+
+.vod-highlight-auto,
+.vod-highlight-intent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  line-height: 22px;
+  margin: 0;
+}
+
+.vod-highlight-auto svg,
+.vod-highlight-intent svg {
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.vod-highlight-intent-tag {
+  font-weight: 600;
+  color: #7C5CFC;
 }
 
 /* ===== 思维链路 ===== */
@@ -1188,19 +1616,132 @@
   box-shadow: 0 4px 16px rgba(255, 152, 0, 0.2);
 }
 
-/* ===== 底部授权模拟开关面板 ===== */
+/* ===== 空数据提示卡片（已授权但无对局） ===== */
+.vod-empty-data-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: vod-fadeIn 0.35s ease;
+}
+
+.vod-empty-data-icon {
+  margin-bottom: 14px;
+}
+
+.vod-empty-data-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1A1C1E;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.vod-empty-data-desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8C8C8C;
+  line-height: 22px;
+  margin-bottom: 16px;
+  max-width: 300px;
+}
+
+.vod-empty-data-desc strong {
+  color: #1A1C1E;
+  font-weight: 600;
+}
+
+.vod-empty-data-tips {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, rgba(124, 92, 252, 0.04) 0%, rgba(77, 158, 255, 0.04) 100%);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.vod-empty-data-tip-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+  line-height: 18px;
+}
+
+.vod-empty-data-tip-item svg {
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+.vod-empty-data-actions {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.vod-empty-data-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 0;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.vod-empty-data-btn:active {
+  transform: scale(0.97);
+}
+
+.vod-empty-data-btn.secondary {
+  background: #F5F5F7;
+  color: #666;
+  flex: 0 0 auto;
+  padding: 12px 20px;
+}
+
+.vod-empty-data-btn.secondary:active {
+  background: #E8E8EA;
+}
+
+.vod-empty-data-btn.primary {
+  background: linear-gradient(135deg, #7C5CFC 0%, #4D9EFF 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(124, 92, 252, 0.2);
+}
+
+.vod-empty-data-btn.primary .vod-game-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+}
+
+/* ===== 底部授权模拟开关面板（可折叠） ===== */
 .vod-auth-toggle-panel {
   position: fixed;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
   width: 100%;
   max-width: 428px;
+  margin: 0 auto;
   background: #fff;
   border-top: 1px solid #F0F0F2;
-  padding: 12px 20px;
-  padding-bottom: calc(12px + env(safe-area-inset-bottom, 8px));
-  z-index: 100;
+  padding: 0 20px;
+  padding-bottom: env(safe-area-inset-bottom, 8px);
+  z-index: 5000;
   box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.04);
 }
 
@@ -1212,7 +1753,33 @@
   font-weight: 500;
   color: #ACACAC;
   line-height: 17px;
-  margin-bottom: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.vod-console-arrow {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.vod-console-arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.vod-console-body {
+  max-height: 380px;
+  overflow-y: auto;
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  opacity: 1;
+  padding-bottom: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.vod-auth-toggle-panel.collapsed .vod-console-body {
+  max-height: 0;
+  opacity: 0;
+  padding-bottom: 0;
 }
 
 .vod-auth-toggle-list {
@@ -1239,6 +1806,16 @@
 .vod-auth-toggle-game-icon {
   font-size: 16px;
   line-height: 1;
+}
+
+/* 游戏 icon 图片 */
+.vod-game-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  object-fit: cover;
+  vertical-align: middle;
+  flex-shrink: 0;
 }
 
 .vod-auth-toggle-game-name {
@@ -1379,4 +1956,517 @@
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
   pointer-events: auto;
+}
+
+/* ===== 对局卡片区域 ===== */
+.vod-match-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.vod-match-card {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  background: #F8F8FA;
+  border-radius: 12px;
+  position: relative;
+  animation: vod-fadeIn 0.3s ease;
+}
+
+.vod-match-card.recommended {
+  border: 1.5px solid rgba(124, 92, 252, 0.25);
+  background: linear-gradient(135deg, rgba(124, 92, 252, 0.04) 0%, rgba(77, 158, 255, 0.04) 100%);
+}
+
+.vod-match-card-recommend-tag {
+  position: absolute;
+  top: -1px;
+  right: 12px;
+  padding: 2px 10px;
+  background: linear-gradient(135deg, #7C5CFC, #4D9EFF);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 0 0 8px 8px;
+  line-height: 18px;
+}
+
+.vod-match-card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.vod-match-hero-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #E8E0FF, #D0E8FF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vod-match-hero-emoji {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.vod-match-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 6px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.vod-match-badge.mvp {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #fff;
+}
+
+.vod-match-badge.top {
+  background: linear-gradient(135deg, #FF6B6B, #FF4757);
+  color: #fff;
+}
+
+.vod-match-badge.gold {
+  background: linear-gradient(135deg, #FFB74D, #FF9800);
+  color: #fff;
+}
+
+.vod-match-badge.silver {
+  background: linear-gradient(135deg, #B0BEC5, #78909C);
+  color: #fff;
+}
+
+.vod-match-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vod-match-card-row1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.vod-match-hero-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1C1E;
+  line-height: 20px;
+}
+
+.vod-match-result {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1px 8px;
+  border-radius: 4px;
+  line-height: 18px;
+}
+
+.vod-match-result.win {
+  background: rgba(52, 199, 89, 0.1);
+  color: #34C759;
+}
+
+.vod-match-result.lose {
+  background: rgba(255, 59, 48, 0.1);
+  color: #FF3B30;
+}
+
+.vod-match-card-row2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vod-match-kda {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.vod-kda-kill {
+  color: #34C759;
+}
+
+.vod-kda-sep {
+  color: #C0C0C4;
+  margin: 0 1px;
+}
+
+.vod-kda-death {
+  color: #FF3B30;
+}
+
+.vod-kda-assist {
+  color: #007AFF;
+}
+
+.vod-match-mode {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8C8C8C;
+  line-height: 17px;
+}
+
+.vod-match-date {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ACACAC;
+  line-height: 17px;
+}
+
+.vod-match-card-teammates {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.vod-match-teammates-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ACACAC;
+  line-height: 17px;
+}
+
+.vod-match-teammate-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #7C5CFC;
+  background: rgba(124, 92, 252, 0.06);
+  padding: 1px 6px;
+  border-radius: 4px;
+  line-height: 17px;
+}
+
+.vod-match-card-row3 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+  flex-wrap: wrap;
+}
+
+.vod-match-hl-tag {
+  font-size: 11px;
+  font-weight: 500;
+  color: #7C5CFC;
+  background: rgba(124, 92, 252, 0.08);
+  padding: 2px 8px;
+  border-radius: 6px;
+  line-height: 16px;
+}
+
+.vod-match-empty {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ACACAC;
+  line-height: 18px;
+}
+
+/* ===== 未匹配到对局的提示 ===== */
+.vod-no-match-hint {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 149, 0, 0.06);
+  border: 1px solid rgba(255, 149, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.vod-no-match-hint-icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.vod-no-match-hint-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #FF9500;
+  line-height: 19px;
+}
+
+/* ===== 确认区段标签 ===== */
+.vod-confirm-section-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1C1E;
+  line-height: 20px;
+}
+
+.vod-confirm-section-num {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7C5CFC, #4D9EFF);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ===== 确认卡片游戏标签 ===== */
+.vod-confirm-game-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #F5F5F7;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1A1C1E;
+  line-height: 20px;
+}
+
+/* ===== 高光片段描述 ===== */
+.vod-confirm-highlight-desc {
+  margin-bottom: 16px;
+}
+
+.vod-highlight-auto,
+.vod-highlight-intent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  background: linear-gradient(135deg, rgba(124, 92, 252, 0.04), rgba(77, 158, 255, 0.04));
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+  line-height: 19px;
+  margin: 0;
+}
+
+.vod-highlight-auto svg,
+.vod-highlight-intent svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.vod-highlight-intent-tag {
+  color: #7C5CFC;
+  font-weight: 600;
+}
+
+/* ===== 凝练结果操作按钮 ===== */
+.vod-refined-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.vod-refined-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 0;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.vod-refined-btn:active {
+  transform: scale(0.97);
+}
+
+.vod-refined-btn.secondary {
+  background: #F5F5F7;
+  color: #666;
+}
+
+.vod-refined-btn.primary {
+  background: linear-gradient(135deg, #7C5CFC 0%, #4D9EFF 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(124, 92, 252, 0.2);
+}
+
+/* ===== 数据校验警告 ===== */
+.vod-data-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 149, 0, 0.06);
+  border: 1px solid rgba(255, 149, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.vod-data-warning-icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.vod-data-warning-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #FF9500;
+  line-height: 19px;
+}
+
+/* ===== 对局维度标签 ===== */
+.vod-match-dim-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.vod-match-dim-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: linear-gradient(135deg, rgba(124, 92, 252, 0.06) 0%, rgba(77, 158, 255, 0.06) 100%);
+  border: 1px solid rgba(124, 92, 252, 0.12);
+  border-radius: 16px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.vod-match-dim-tag-label {
+  font-weight: 400;
+  color: #8C8C8C;
+}
+
+.vod-match-dim-tag-value {
+  font-weight: 600;
+  color: #7C5CFC;
+}
+
+/* ===== 其他游戏提醒卡片 ===== */
+.vod-other-game-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: vod-fadeIn 0.35s ease;
+}
+
+.vod-other-game-icon {
+  margin-bottom: 14px;
+}
+
+.vod-other-game-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1A1C1E;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.vod-other-game-desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8C8C8C;
+  line-height: 22px;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.vod-other-game-desc strong {
+  color: #FF9800;
+  font-weight: 600;
+}
+
+.vod-other-game-actions {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.vod-other-game-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 0;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.vod-other-game-btn:active {
+  transform: scale(0.97);
+}
+
+.vod-other-game-btn.secondary {
+  background: #F5F5F7;
+  color: #666;
+}
+
+.vod-other-game-btn.secondary:active {
+  background: #E8E8EA;
+}
+
+.vod-other-game-btn.primary {
+  background: linear-gradient(135deg, #7C5CFC 0%, #4D9EFF 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(124, 92, 252, 0.2);
+}
+
+.vod-other-game-btn.primary .vod-game-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+}
+
+/* ===== "即将支持" 标签 ===== */
+.vod-intro-support-game.coming-soon {
+  opacity: 0.6;
+  position: relative;
+}
+
+.coming-soon-tag {
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #FF9800 0%, #FFB74D 100%);
+  padding: 1px 6px;
+  border-radius: 6px;
+  margin-left: 4px;
+  vertical-align: middle;
+  line-height: 16px;
 }

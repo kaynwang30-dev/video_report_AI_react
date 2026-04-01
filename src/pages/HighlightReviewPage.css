@@ -1,0 +1,485 @@
+/* ===== 视频高光鉴赏团页面 ===== */
+.hr-page {
+  width: 100%;
+  max-width: 428px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F5F6FA;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ===== 状态栏 ===== */
+.hr-statusbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px 0;
+  height: 44px;
+}
+.hr-statusbar-time {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.5px;
+}
+.hr-statusbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hr-statusbar-icons svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* ===== 导航栏 ===== */
+.hr-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  height: 44px;
+}
+.hr-nav-back {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.hr-nav-back svg {
+  width: 22px;
+  height: 22px;
+  color: #333;
+}
+.hr-nav-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1A1A1A;
+  flex: 1;
+  text-align: center;
+}
+.hr-nav-right {
+  font-size: 14px;
+  color: #1A1A1A;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* ===== 标题区域 ===== */
+.hr-header {
+  padding: 16px 20px 8px;
+}
+.hr-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin: 0;
+  line-height: 1.3;
+}
+.hr-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #999;
+}
+.hr-subtitle-dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #ccc;
+}
+.hr-refresh-icon {
+  width: 14px;
+  height: 14px;
+  color: #999;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+/* ===== 卡片滑动容器 ===== */
+.hr-swiper-wrapper {
+  position: relative;
+  padding: 12px 20px 0;
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.hr-swiper-track {
+  display: flex;
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  will-change: transform;
+}
+
+.hr-swiper-track.swiping {
+  transition: none;
+}
+
+.hr-swiper-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+
+/* ===== 卡片主体 ===== */
+.hr-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== 卡片头部 - 玩家信息 ===== */
+.hr-card-header {
+  display: flex;
+  align-items: center;
+  padding: 16px 16px 12px;
+  gap: 10px;
+}
+.hr-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.hr-player-info {
+  flex: 1;
+  min-width: 0;
+}
+.hr-player-result {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3478F6;
+  line-height: 1.3;
+}
+.hr-player-result.defeat {
+  color: #FF4D4F;
+}
+.hr-player-kda {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+.hr-card-tags {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.hr-tag {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: #F5F6FA;
+  color: #666;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+.hr-tag-mvp {
+  background: linear-gradient(135deg, #FFF8E1, #FFF0C2);
+  color: #D4880F;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.hr-tag-mvp svg {
+  width: 12px;
+  height: 12px;
+}
+
+/* ===== 视频封面区域 ===== */
+.hr-video-area {
+  position: relative;
+  margin: 0 16px;
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 16/10;
+  background: #1a1a2e;
+}
+.hr-video-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.hr-video-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #fff;
+}
+.hr-video-badge-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.6;
+}
+.hr-video-share {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hr-video-share svg {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+}
+.hr-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.hr-play-btn svg {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  margin-left: 3px;
+}
+.hr-video-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 14px 12px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.4;
+}
+
+/* ===== 甄选锐评区域 ===== */
+.hr-comment-section {
+  padding: 14px 16px 8px;
+}
+.hr-comment-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.hr-comment-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1A1A1A;
+}
+.hr-comment-add {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #3478F6;
+  cursor: pointer;
+}
+.hr-comment-add svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ===== 评论项 ===== */
+.hr-comment-item {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 12px;
+}
+.hr-comment-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.hr-comment-body {
+  flex: 1;
+  min-width: 0;
+}
+.hr-comment-name {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 4px;
+}
+.hr-comment-text {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+.hr-comment-like {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.hr-comment-like svg {
+  width: 20px;
+  height: 20px;
+  color: #ccc;
+}
+.hr-comment-like-count {
+  font-size: 11px;
+  color: #999;
+}
+
+/* ===== 表情投票区 ===== */
+.hr-vote-section {
+  padding: 6px 16px 20px;
+  display: flex;
+  gap: 10px;
+}
+.hr-vote-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 0;
+  border-radius: 22px;
+  border: 1px solid #EBEBEB;
+  background: #fff;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.hr-vote-btn:active {
+  background: #F5F6FA;
+  transform: scale(0.97);
+}
+.hr-vote-emoji {
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* ===== 底部榜单入口 ===== */
+.hr-bottom-bar {
+  margin: 12px 20px 0;
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 36px;
+}
+.hr-bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hr-bottom-icon {
+  width: 24px;
+  height: 24px;
+  color: #999;
+}
+.hr-bottom-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1A1A1A;
+}
+.hr-bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #999;
+  cursor: pointer;
+}
+.hr-bottom-right svg {
+  width: 14px;
+  height: 14px;
+  color: #ccc;
+}
+
+/* ===== 页面指示器（小圆点） ===== */
+.hr-dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 0 4px;
+}
+.hr-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ddd;
+  transition: all 0.3s;
+}
+.hr-dot.active {
+  width: 18px;
+  border-radius: 3px;
+  background: #3478F6;
+}
+
+/* ===== 滑动动画 ===== */
+@keyframes hrSlideInFromRight {
+  from {
+    opacity: 0.6;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes hrSlideInFromLeft {
+  from {
+    opacity: 0.6;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hr-card-enter-right {
+  animation: hrSlideInFromRight 0.35s ease forwards;
+}
+.hr-card-enter-left {
+  animation: hrSlideInFromLeft 0.35s ease forwards;
+}
+
+/* ===== Safe area padding ===== */
+.hr-safe-bottom {
+  height: env(safe-area-inset-bottom, 20px);
+}

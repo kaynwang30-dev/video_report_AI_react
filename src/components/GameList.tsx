@@ -1,11 +1,13 @@
 import React from 'react'
 import './GameList.css'
 
+const BASE = import.meta.env.BASE_URL
+
 const gameIcons = [
-  { name: '王者荣耀', color: '#FF4444', type: 'app', emoji: '⚔️', icon: '/icon/wzry.png' },
+  { name: '王者荣耀', color: '#FF4444', type: 'app', emoji: '⚔️', icon: `${BASE}icon/wzry.png` },
+  { name: '和平精英', color: '#2B2B2B', type: 'app', emoji: '🔫', icon: `${BASE}icon/hpjy.png` },
   { name: '元梦之星', color: '#FF69B4', type: 'app', emoji: '⭐', icon: '' },
   { name: '小游戏1', color: '#4CAF50', type: 'mini', emoji: '🎮', icon: '' },
-  { name: '重返帝国', color: '#795548', type: 'app', emoji: '🏰', icon: '' },
   { name: '小游戏2', color: '#2196F3', type: 'mini', emoji: '🎯', icon: '' },
 ]
 
